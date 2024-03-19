@@ -56,6 +56,7 @@ line-height: 180%;
 text-align: left;
 background-color: #ececec;
 padding: 5px;
+margin: 0 0 0.5em 0;
 }
 p.cita {
 margin-left: 80px;
@@ -256,7 +257,7 @@ border-left: 15px solid #dfbf9f;
 ----------------------------------------------- */
 
 aside ul {
-margin: 1.5em 0;
+margin: 0;
 padding: 1.5em 0;
 border-top: 1px dotted #ccc;
 border-bottom: 1px dotted #ccc;
