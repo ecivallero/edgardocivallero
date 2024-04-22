@@ -274,12 +274,21 @@ font-family: Verdana, sans-serif;
 font-size: 1.1em;
 text-align: left;
 list-style: none;
+border-bottom: 1px dotted #ccc;
 }
-.titlelat a {
+.titlelat01 {
+font-family: Verdana, sans-serif;
+font-size: 1.1em;
+text-align: left;
+list-style: none;
+border-top: 1px dotted #ccc;
+border-bottom: 1px dotted #ccc;
+}
+.titlelat a, .titlelat01 a {
 text-decoration: none;
 color: #333333;
 }
-.titlelat a:hover {
+.titlelat a:hover, .titlelat01 a:hover {
 color: #a22a22;
 }
 
@@ -388,14 +397,14 @@ text-indent: 0;
 width: 100%;
 margin: 0 auto;
 font-family: Verdana, sans-serif;
-font-size: 1em;
+font-size: 0.8em;
 padding-top: 15px;
 } 
 .nav02 {
 width: 100%;
 margin: 0 auto;
 font-family: Verdana, sans-serif;
-font-size: 1em;
+font-size: 0.8em;
 padding-top: 15px;
 } 
 .nav02 ul {
