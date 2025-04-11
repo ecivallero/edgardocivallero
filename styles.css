@@ -1,459 +1,253 @@
-/* Estructura básica
------------------------------------------------ */
+/* MODERNIZED STYLESHEET – FLEXBOX-BASED */
+
+/* === Base Structure === */
 
 html {
-scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
+
 body {
-background: #ffffff;
-margin: 0;
-padding: 0px;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
 }
+
 img {
-padding: 0px;
-border: 0;
-width: 100%;
-height: auto;
-display: block;
-margin: 0 auto; 
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border: 0;
 }
-p.title {
-font-family: Verdana, sans-serif;
-font-size: 2em;
-color: #696969;
-margin-top: 0;
-margin-bottom: 15px;
-line-height: 150%;
-text-align: left;
+
+a {
+	color: #a22;
+	text-decoration: none;
 }
-p.subtitle {
-font-family: Verdana, sans-serif;
-font-size: 1.3em;
-color: #696969;
-margin-top: 0;
-margin-bottom: 10px;
-line-height: 150%;
-text-align: left;
-}
-p.subtitle1 {
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-color: #696969;
-padding-top: 10px;
-margin-bottom: 10px;
-line-height: 150%;
-text-align: left;
-}
-.titular {
-font-family: Verdana, sans-serif;
-font-size: 0.8em;
-text-transform: uppercase;
-letter-spacing: .2em;
-color: #333333;
-line-height: 180%;
-text-align: left;
-background-color: #ececec;
-padding: 5px;
-margin: 0 0 0.5em 0;
-}
-p.cita {
-margin-left: 80px;
-padding: 20px 0px;
-}
-p.notainicial {
-margin-left: 80px;
-font-size: 0.9em;
-font-style: italic;
-line-height: 180%;
-border-left: 5px solid #e0e0e0;
-padding-left: 20px;
-}
-p.introblog {
-font-size: 0.9em;
-line-height: 180%;
-background-color: #f5f5f5;
-padding: 20px;
-}
-a:link {
-color: #a22;
-text-decoration: none;
-cursor: pointer; 
-}
+
 a:visited {
-color: #a22;
-text-decoration: none;
-}
-a:hover {
-color: #639;
-text-decoration: none;
-cursor: pointer; 
+	color: #a22;
 }
 
-/* Listas
------------------------------------------------ */
-
-ul {
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-margin-left: 10px;
-list-style-type: square;
-}
-li {
-padding: 5px 0px 5px 0px;
+a:hover, a:focus {
+	color: #639;
+	outline: 2px dashed #a22;
+	outline-offset: 4px;
 }
 
-/* Barra blanca
------------------------------------------------ */
+/* === Typography === */
 
-.barra {
-width: 100%;
-height: 30px;
-margin: 0 auto;
+p.titular {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	background-color: #ececec;
+	padding: 5px;
+	margin: 0 0 0.5em 0;
 }
 
-/* Contenido
------------------------------------------------ */
+p.subtitle {
+	font-size: 1.3em;
+	color: #696969;
+	margin: 0 0 10px 0;
+	line-height: 150%;
+	text-align: left;
+}
+
+/* === Layout === */
 
 main {
-width: 75%;
-margin: 0 auto;
-max-width: 1200px;
-padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
+
 article {
-width: 78%;
-float: left;
-margin: 0 auto;
-max-width: 1200px;
-padding: 0px 0px 20px 0px;
-font-family: Arial, Helvetica, sans-serif;
-color: #333333;
-font-size: 1em;
-text-align: justify;
-line-height: 2.3em;
+	width: 78%;
+	max-width: 900px;
+	padding-bottom: 20px;
+	text-align: justify;
+	line-height: 2.3em;
 }
-article blockquote {
-margin: 1em 20px;
-}
+
 aside {
-width: 16%;
-float: right;
-text-align: left;
-margin: 0 auto;
-padding: 0;
+	width: 18%;
+	text-align: left;
 }
 
-/* Navegación 01
------------------------------------------------ */
+/* === Navigation === */
 
-.nav01 {
-width: 75%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-padding-top: 15px;
-} 
-.nav01 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #ffffff;
-}
-.nav01 li {
-float: left;
-display: block;
-padding: 10px 30px 15px 0px;
-}
-.nav01 li a {
-text-decoration: none;
-color: #333333;
-}
-.nav01 li a:hover {
-color: #a22a22;
-  }
-#alignright {
-float: right;
-padding: 10px 0px 15px 30px;
+.nav01 ul, .nav02 ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	background-color: #ffffff;
+	width: 75%;
+	max-width: 1200px;
+	font-family: Verdana, sans-serif;
+	font-size: 1.1em;
 }
 
-/* Navegación 02
------------------------------------------------ */
+.nav01 li, .nav02 li {
+	padding: 10px 15px;
+}
 
-.nav02 {
-width: 75%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-padding-top:15px;
-} 
-.nav02 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #ffffff;
+.nav01 li a, .nav02 li a {
+	color: #333;
+	text-decoration: none;
 }
-.nav02 li {
-float: left;
-display: block;
-padding: 10px 30px 15px 0px;
-}
-.nav02 li a {
-text-decoration: none;
-color: #333333;
-}
-.nav02 li a:hover {
-color: #a22a22;
-  }
 
-/* Color line
------------------------------------------------ */
+.nav01 li a:hover, .nav02 li a:hover {
+	color: #a22a22;
+}
+
+/* === Divider Line === */
 
 .divcolor {
-width: 100%;
-height: 1px;
-margin: 10px 0px 10px 0px;
-background-color: #d9d9d9;
-clear: both;
+	width: 100%;
+	height: 1px;
+	margin: 10px 0;
+	background-color: #d9d9d9;
+	clear: both;
 }
 
-/* Posts
------------------------------------------------ */
-
-.barratit {
-padding: 10px 0px 10px 15px;
-background-color: #e6e6e6;
-border-bottom: 1px solid #d9d9d9;
-border-left: 15px solid #dfbf9f;
-}
-.barratit1 {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1em;
-text-transform: uppercase;
-letter-spacing: .2em;
-color: #333333;
-text-align: justify;
-padding: 10px 0px 10px 15px;
-background-color: #e6e6e6;
-border-bottom: 1px solid #d9d9d9;
-border-left: 15px solid #dfbf9f;
-}
-
-/* Aside
------------------------------------------------ */
+/* === Aside Section === */
 
 aside ul {
-margin: 0;
-padding: 1.5em 0;
-border-top: 1px dotted #ccc;
-border-bottom: 1px dotted #ccc;
-list-style: none;
-width: 100%;
-}
-aside li {
-margin: 0;
-padding: 0 0 .25em 15px;
-text-indent: -15px;
-line-height: 2em;
-}
-.titlelat {
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-text-align: left;
-list-style: none;
-border-top: 1px dotted #ccc;
-border-bottom: 1px dotted #ccc;
-}
-.titlelat01 {
-font-family: Verdana, sans-serif;
-font-size: 1.1em;
-text-align: left;
-list-style: none;
-border-top: 0;
-border-bottom: 1px dotted #ccc;
-}
-.titlelat a, .titlelat01 a {
-text-decoration: none;
-color: #333333;
-}
-.titlelat a:hover, .titlelat01 a:hover {
-color: #a22a22;
+	padding: 1.5em 0;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	list-style: none;
 }
 
-/* Footer 01
------------------------------------------------ */
+aside li {
+	padding-left: 15px;
+	line-height: 2em;
+	text-indent: -15px;
+}
+
+.titlelat, .titlelat01 {
+	font-family: Verdana, sans-serif;
+	font-size: 1.1em;
+}
+
+.titlelat a, .titlelat01 a {
+	color: #333;
+}
+
+.titlelat a:hover, .titlelat01 a:hover {
+	color: #a22a22;
+}
+
+/* === Footer === */
 
 .footer01 {
-width: 75%;
-margin: 0 auto;
-max-width: 1200px;
-clear: both;
-padding: 10px 50px;
-font-family: Verdana, sans-serif;
-font-size: 1em;
-color: #333333;
-line-height: 200%;
-}
-.footer01 a {
-text-decoration: none;
-color: #333333;
-}
-.footer01 a:hover {
-color: #a22a22;
-}
-.footer01 p {
-text-align: justify;
-}
-#pie {
-width: 75%;
-margin: 0 auto;
-max-width: 1200px;
-clear: both;
-padding: 10px 50px;
-font-family: Verdana, sans-serif;
-font-size: 1em;
-color: #333333;
-line-height: 200%;
-text-align: justify;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 200%;
 }
 
-/* Redes
------------------------------------------------ */
+.footer01 a {
+	color: #333;
+}
+
+.footer01 a:hover {
+	color: #a22a22;
+}
+
+.footer01 p {
+	text-align: justify;
+	margin: 0 10px;
+}
+
+#pie {
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 200%;
+	text-align: justify;
+}
+
+/* === Social Media Icons === */
 
 .redes {
-float: left;
-margin-bottom: 40px;
-}
-.redes span {
-padding-right: 10px;
-}
-.redes span:hover {
-opacity: 0.4;
-filter: alpha(opacity=40);
+	display: flex;
+	gap: 10px;
+	margin-bottom: 40px;
 }
 
-/* Media queries for Small devices (phones) */
+.redes span:hover {
+	opacity: 0.4;
+}
+
+/* === Responsive Adjustments === */
 
 @media only screen and (max-width: 600px) {
 
-* {
-box-sizing: border-box;
-}
 body {
-margin: 5%;
-padding: 0px;
+	margin: 5%;
 }
-img {
-max-width: 100%;
-height: auto;
+
+main, article, aside, .nav01 ul, .nav02 ul, .footer01, #pie {
+	width: 100%;
+	max-width: 100%;
 }
+
 main {
-width: 100%;
-margin: 0 auto;
-padding: 0;
-}
-article {
-width: 100%;
-float: none;
-margin: 0 auto;
-padding: 0;
-font-family: Arial, Helvetica, sans-serif;
-color: #333333;
-font-size: 1em;
-text-align: justify;
-line-height: 2.3em;
-}
-aside {
-width: 100%;
-float: none;
-margin: 0 auto;
-padding: 0;
-}
-aside ul {
-text-align: center;
-margin: 0 auto;
-padding: 1.5em 0;
-border-top: 0;
-border-bottom: 0;
-list-style: none;
-}
-aside li {
-text-align: center;
-margin: 0;
-padding: 0;
-text-indent: 0;
-}
-.nav01 {
-width: 100%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 0.8em;
-padding-top: 15px;
-} 
-.nav02 {
-width: 100%;
-margin: 0 auto;
-font-family: Verdana, sans-serif;
-font-size: 0.8em;
-padding-top: 15px;
-} 
-.nav02 ul {
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-overflow: hidden;
-background-color: #ffffff;
-}
-.nav02 li {
-float: none;
-display: inline-block;
-padding: 10px 30px 15px 0px;
-}
-.nav02 #alignright {
-float: none;
-}
-#futuro, .redes, #pie, .divcolor01 {
-	display: none;
-}
-.footer01 {
-width: 100%;
-margin: 0 auto;
-clear: both;
-padding: 0;
-font-family: Verdana, sans-serif;
-font-size: 1em;
-color: #333333;
-line-height: 200%;
-}
-.footer01 #alignright {
-float: none;
+	flex-direction: column;
 }
 
+.nav02 li, .nav01 li {
+	padding: 10px;
 }
 
-/* Media queries for Small devices (tablets) */
+.nav01 ul, .nav02 ul {
+	justify-content: center;
+}
 
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+aside ul, aside li {
+	text-align: center;
+	text-indent: 0;
+	padding-left: 0;
+}
 
-#futuro {
+.redes, #pie, .divcolor {
 	display: none;
 }
 
 }
 
-/* Media queries for Medium devices (laptops) */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
 
-@media only screen and (min-width: 800px) and (max-width: 1000px) {
-
-#futuro {
-	display: none;
+main {
+	flex-direction: column;
 }
 
+article, aside {
+	width: 100%;
 }
 
-/* Media queries for Large devices (Desktops) */
+.redes, #pie {
+display: none;
+}
 
-@media only screen and (min-width: 1000px) {
 }
