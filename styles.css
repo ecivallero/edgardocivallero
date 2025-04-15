@@ -187,11 +187,11 @@ padding: 10px 30px 15px 0px;
 
 nav li a {
 text-decoration: none;
-color: #333333;
+color: #333;
 }
 
 nav li a:hover {
-color: #a22a22;
+color: #a22;
 }
 
 .alignright {
@@ -288,7 +288,7 @@ color: #a22a22;
 /* Footer
 ----------------------------------------------- */
 
-footer {
+.lowbar {
 width: 75%;
 margin: 0 auto;
 clear: both;
@@ -299,14 +299,14 @@ color: #333333;
 line-height: 200%;
 }
 
-footer a {
+.lowbar a {
 text-decoration: none;
 color: #333333;
 }
-footer a:hover {
+.lowbar a:hover {
 color: #a22a22;
 }
-footer p {
+.lowbar p {
 text-align: justify;
 }
 #pie {
