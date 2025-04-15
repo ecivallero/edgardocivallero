@@ -81,13 +81,6 @@ outline: none;
 outline: 0;
 }
 
-a:visited {
-color: #a22;
-text-decoration: none;
-outline: none;
-outline: 0;
-}
-
 a:hover {
 color: #639;
 text-decoration: none;
@@ -293,7 +286,7 @@ color: #a22a22;
 ----------------------------------------------- */
 
 .lowbar {
-width: 100%;
+width: 75%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
@@ -314,7 +307,7 @@ color: #a22a22;
 text-align: justify;
 }
 #pie {
-width: 100%;
+width: 75%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
@@ -468,3 +461,4 @@ float: none;
 
 @media only screen and (min-width: 1000px) {
 }
+
