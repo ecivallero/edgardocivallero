@@ -156,7 +156,7 @@ padding: 0;
 /* Navegación
 ----------------------------------------------- */
 
-nav {
+.navbar {
 width: 75%;
 margin: 0 auto;
 font-family: Verdana, sans-serif;
@@ -164,7 +164,7 @@ font-size: 1.1em;
 padding-top: 15px;
 } 
 
-nav ul {
+.navbar ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -172,22 +172,22 @@ overflow: hidden;
 background-color: #ffffff;
 }
 
-nav li {
+.navbar li {
 float: left;
 display: block;
 padding: 10px 30px 15px 0px;
 }
 
-nav li a {
+.navbar li a {
 text-decoration: none;
 color: #333;
 }
 
-nav li a:hover {
+.navbar li a:hover {
 color: #a22;
 }
 
-nav li a:visited {
+.navbar li a:visited {
 color: #333;
 }
 
@@ -300,12 +300,15 @@ line-height: 200%;
 text-decoration: none;
 color: #333333;
 }
+
 .lowbar a:hover {
 color: #a22a22;
 }
+
 .lowbar p {
 text-align: justify;
 }
+
 #pie {
 width: 75%;
 margin: 0 auto;
@@ -461,4 +464,3 @@ float: none;
 
 @media only screen and (min-width: 1000px) {
 }
-
