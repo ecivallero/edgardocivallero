@@ -194,6 +194,10 @@ nav li a:hover {
 color: #a22;
 }
 
+nav li a:visited {
+color: #333;
+}
+
 .alignright {
 float: right;
 padding: 10px 0px 15px 30px;
@@ -289,7 +293,7 @@ color: #a22a22;
 ----------------------------------------------- */
 
 .lowbar {
-width: 75%;
+width: 100%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
@@ -310,7 +314,7 @@ color: #a22a22;
 text-align: justify;
 }
 #pie {
-width: 75%;
+width: 100%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
