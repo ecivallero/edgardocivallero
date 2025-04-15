@@ -312,6 +312,11 @@ color: #a22a22;
 text-align: justify;
 }
 
+.lowbar p.alignright {
+float: right;
+padding: 10px 0px 15px 30px;
+}
+
 #pie {
 	width: 100%;
 clear: both;
