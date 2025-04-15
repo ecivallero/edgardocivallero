@@ -191,7 +191,7 @@ color: #a22;
 color: #333;
 }
 
-.alignright {
+.navbar li.alignright {
 float: right;
 padding: 10px 0px 15px 30px;
 }
