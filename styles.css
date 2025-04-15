@@ -285,8 +285,12 @@ color: #a22a22;
 /* Footer
 ----------------------------------------------- */
 
+footer {
+	width: 75%;
+}
+
 .lowbar {
-width: 75%;
+width: 100%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
@@ -310,7 +314,7 @@ text-align: justify;
 }
 
 #pie {
-width: 75%;
+width: 100%;
 margin: 0 auto;
 clear: both;
 padding: 10px 50px;
@@ -464,3 +468,4 @@ float: none;
 
 @media only screen and (min-width: 1000px) {
 }
+
