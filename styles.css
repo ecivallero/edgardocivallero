@@ -94,15 +94,6 @@ text-decoration: none;
 cursor: pointer; 
 }
 
-a[name] {
-color: #696969;
-text-decoration: none;
-}
-
-.inactive {
-color: #a6a6a6;
-}
-
 /* Listas
 ----------------------------------------------- */
 
@@ -193,15 +184,6 @@ float: left;
 display: block;
 padding: 10px 30px 15px 0px;
 }
-
-nav li a {
-text-decoration: none;
-color: #333333;
-}
-
-nav li a:hover {
-color: #a22a22;
-  }
 
 .alignright {
 float: right;
