@@ -293,7 +293,6 @@ margin: 0 auto;
 .lowbar {
 	width: 100%;
 clear: both;
-padding: 10px 50px;
 font-family: Verdana, sans-serif;
 font-size: 1em;
 color: #333333;
@@ -316,7 +315,6 @@ text-align: justify;
 #pie {
 	width: 100%;
 clear: both;
-padding: 10px 50px;
 font-family: Verdana, sans-serif;
 font-size: 1em;
 color: #333333;
