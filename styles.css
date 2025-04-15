@@ -287,11 +287,11 @@ color: #a22a22;
 
 footer {
 	width: 75%;
+margin: 0 auto;
 }
 
 .lowbar {
-width: 100%;
-margin: 0 auto;
+	width: 100%;
 clear: both;
 padding: 10px 50px;
 font-family: Verdana, sans-serif;
@@ -314,8 +314,7 @@ text-align: justify;
 }
 
 #pie {
-width: 100%;
-margin: 0 auto;
+	width: 100%;
 clear: both;
 padding: 10px 50px;
 font-family: Verdana, sans-serif;
@@ -468,3 +467,4 @@ float: none;
 
 @media only screen and (min-width: 1000px) {
 }
+
