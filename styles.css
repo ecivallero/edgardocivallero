@@ -20,6 +20,15 @@ display: block;
 margin: 0 auto; 
 }
 
+.site-header {
+width: 100%;
+padding-top: 18.48%;
+background-image: url("img/cabecera.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
 p.title {
 font-family: Verdana, sans-serif;
 font-size: 2em;
@@ -400,6 +409,19 @@ width: 100% !important;
 
 .redes, .divcolor01, #futuro, .navbar li.alignright {
 display: none;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.site-header {
+background-image: url("img/cabecera-mobile.png");
+width: 100%;
+padding-top: 64.04%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 }
