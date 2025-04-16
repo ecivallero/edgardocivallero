@@ -344,7 +344,9 @@ opacity: 0.4;
 filter: alpha(opacity=40);
 }
 
-/* Small devices (phones) */
+/* Small devices (phones)
+----------------------------------------------- */
+
 @media only screen and (max-width: 600px) {
 
 body {
@@ -386,9 +388,11 @@ text-align: center;
 }
 
 .navbar li.alignright {
-float: none;
+display: none;
+}
+
+#futuro {
 text-align: center;
-padding: 10px;
 }
 
 .lowbar, #pie {
