@@ -435,7 +435,8 @@ margin: 0;
 .navbar li, .navbar li.alignright {
 display: inline-block;
 float: none;
-padding: 10px 15px;
+font-size: .8em;
+padding: 10px 5px;
 }
 
 .lowbar, #pie {
