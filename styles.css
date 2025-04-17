@@ -432,7 +432,7 @@ padding: 0;
 margin: 0;
 }
 
-.navbar li {
+.navbar li, .navbar li.alignright {
 display: inline-block;
 float: none;
 padding: 10px 15px;
@@ -443,7 +443,7 @@ padding: 10px;
 width: 100% !important;
 }
 
-.redes, .divcolor01, #futuro, .navbar li.alignright {
+.redes, .divcolor01, #futuro {
 display: none;
 }
 
