@@ -435,7 +435,7 @@ margin: 0;
 .navbar li, .navbar li.alignright {
 display: inline-block;
 float: none;
-font-size: .8em;
+font-size: .9em;
 padding: 10px 5px;
 }
 
@@ -444,7 +444,7 @@ padding: 10px;
 width: 100% !important;
 }
 
-.redes, .divcolor01, #futuro {
+.redes, .divcolor01, #futuro, #futuro li {
 display: none;
 }
 
