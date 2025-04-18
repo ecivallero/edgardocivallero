@@ -211,6 +211,7 @@ padding-top: 15px;
 
 .navbar ul {
 list-style-type: none;
+text-align: right;
 margin: 0;
 padding: 0;
 overflow: hidden;
@@ -219,7 +220,7 @@ background-color: #ffffff;
 
 .navbar li {
 float: left;
-display: block;
+display: inline-block;
 padding: 10px 30px 15px 0px;
 }
 
@@ -234,11 +235,6 @@ color: #a22;
 
 .navbar li a:visited {
 color: #333;
-}
-
-.navbar li.alignright {
-float: right;
-padding: 10px 0px 15px 30px;
 }
 
 /* Color line
@@ -436,28 +432,14 @@ padding: 10px 0;
 .navbar ul {
 text-align: center;
 padding: 0;
-margin: 0;
+margin: 0 auto;
 }
 
-.navbar li, .navbar li.alignright {
+.navbar li {
 display: inline-block;
-float: none;
 font-size: 0.9em;
 padding: 10px 5px;
 white-space: nowrap;
-}
-
-.navbar ul {
-text-align: center;
-padding: 0;
-margin: 0;
-}
-
-.navbar li, .navbar li.alignright {
-display: inline-block;
-float: none;
-font-size: .9em;
-padding: 10px 5px;
 }
 
 .lowbar, #pie {
