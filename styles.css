@@ -238,7 +238,7 @@ color: #333;
 
 .navbar li.alignright {
 float: right;
-padding-left: 30px;
+padding: 10px 0px 15px 30px;
 }
 
 /* Color line
