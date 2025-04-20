@@ -211,7 +211,6 @@ padding-top: 15px;
 
 .navbar ul {
 list-style-type: none;
-text-align: right;
 margin: 0;
 padding: 0;
 overflow: hidden;
@@ -220,7 +219,7 @@ background-color: #ffffff;
 
 .navbar li {
 float: left;
-display: inline-block;
+display: block;
 padding: 10px 30px 15px 0px;
 }
 
@@ -235,6 +234,11 @@ color: #a22;
 
 .navbar li a:visited {
 color: #333;
+}
+
+.navbar li.alignright {
+float: right;
+padding-left: 30px;
 }
 
 /* Color line
