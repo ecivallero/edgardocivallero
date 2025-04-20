@@ -442,8 +442,8 @@ margin: 0 auto;
 .navbar li {
 display: inline-block;
 float: none !important;
-padding: 10px 10px;
-margin: 0 2px;
+padding: 10px 5px;
+margin: 0 1px;
 font-size: 0.9em;
 white-space: nowrap;
 }
