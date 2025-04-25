@@ -90,14 +90,23 @@ text-align: left;
 
 p.subtitle1 {
 font-family: Verdana, sans-serif;
-font-weight: bold;
-font-size: 1.3em;
+font-size: 1em;
 color: #696969;
 margin-top: 1.5em;
 padding-top: 0;
-margin-bottom: 30px;
+margin-bottom: 15px;
 line-height: 150%;
 text-align: left;
+}
+
+p.introblog {
+font-size: .9em;
+margin-bottom: 35px;
+}
+
+p.notainicial {
+font-size: .9em;
+font-style: italic;
 }
 
 .titular {
