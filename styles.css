@@ -457,6 +457,10 @@ font-size: 0.9em;
 white-space: nowrap;
 }
 
+.navbar li.alignright {
+padding: 10px 5px !important;
+}
+
 .lowbar, #pie {
 padding: 10px;
 width: 100% !important;
