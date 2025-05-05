@@ -352,8 +352,8 @@ color: #a22a22;
 /* Footer
 ----------------------------------------------- */
 
-footer {
-	width: 75%;
+.footer1 {
+width: 75%;
 margin: 0 auto;
 }
 
@@ -421,7 +421,7 @@ margin: 5%;
 padding: 0;
 }
 
-main, article, aside, .navbar, footer {
+main, article, aside, .navbar, .footer1 {
 width: 100% !important;
 margin: 0 auto;
 float: none;
