@@ -491,11 +491,19 @@ font-size: 0.9em;
 white-space: nowrap;
 }
 
-.main-menu, .lang-menu {
+.main-menu {
 display: block;
 text-align: center;
 margin: 0;
 padding: 0;
+}
+
+.lang-menu {
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+float: none;
 }
 
 .main-menu li, .lang-menu li {
