@@ -278,7 +278,13 @@ padding: 0;
 float: right;
 }
 
-.lang-menu li, .main-menu li {
+.lang-menu li {
+float: left;
+display: block;
+padding: 10px 0px 15px 30px;
+}
+
+.main-menu li {
 float: left;
 display: block;
 padding: 10px 30px 15px 0px;
@@ -467,13 +473,6 @@ aside li {
 text-align: center;
 padding: 0;
 text-indent: 0;
-}
-
-#futuro {
-display: block;
-width: 100%;
-text-align: center;
-padding: 10px 0;
 }
 
 .navbar ul {
