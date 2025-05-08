@@ -267,9 +267,21 @@ color: #a22;
 color: #333;
 }
 
-.navbar li.alignright {
+.main-menu, .lang-menu {
+display: inline-block;
+vertical-align: top;
+margin: 0;
+padding: 0;
+}
+
+.lang-menu {
 float: right;
-padding: 10px 0px 15px 30px;
+}
+
+.lang-menu li, .main-menu li {
+float: left;
+display: block;
+padding: 10px 30px 15px 0px;
 }
 
 /* Color line
@@ -479,8 +491,20 @@ font-size: 0.9em;
 white-space: nowrap;
 }
 
-.navbar li.alignright {
-padding: 10px 5px !important;
+.main-menu, .lang-menu {
+display: block;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.main-menu li, .lang-menu li {
+display: inline-block;
+float: none !important;
+padding: 10px 5px;
+margin: 0 3px;
+font-size: 0.9em;
+white-space: nowrap;
 }
 
 .lowbar, #pie {
