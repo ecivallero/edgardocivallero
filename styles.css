@@ -290,6 +290,24 @@ display: block;
 padding: 10px 30px 15px 0px;
 }
 
+.editorial-logos {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin: 2em 0;
+}
+
+.editorial-logo {
+width: 50%;
+text-align: center;
+}
+
+.editorial-logo img {
+width: 100%;
+height: auto;
+display: block;
+}
+
 /* Color line
 ----------------------------------------------- */
 
@@ -521,6 +539,10 @@ width: 100% !important;
 
 .redes, .divcolor01 {
 display: none;
+}
+
+.editorial-logo {
+width: 100%;
 }
 
 .site-header {
