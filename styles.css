@@ -543,6 +543,12 @@ display: none;
 
 .editorial-logo {
 width: 100%;
+margin: 0 0 1.5em 0;
+padding: 0;
+}
+
+.editorial-logo img {
+margin: 0 auto;
 }
 
 .site-header {
