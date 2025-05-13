@@ -158,6 +158,14 @@ text-decoration: none;
 cursor: pointer;
 }
 
+a:visited {
+color: #a22;
+text-decoration: none;
+cursor: pointer;
+outline: none;
+outline: 0;
+}
+
 .sticky-menu {
 position: sticky;
 top: 0;
