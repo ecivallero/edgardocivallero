@@ -366,18 +366,31 @@ border-left: 15px solid #dfbf9f;
 ----------------------------------------------- */
 
 aside ul {
-padding: 1.5em 0;
-border-top: 1px dotted #ccc;
-list-style: none;
-font-size: Verdana, sans-serif;
-font-size: 1.1em;
-text-align: left;
-margin: 0;
-border-bottom: none;
+  position: relative;
+  list-style: none;
+  font-family: Verdana, sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  margin: 0;
+  padding: 1.5em 0 0 0; /* no bottom padding */
+}
+
+aside ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px dotted #ccc;
+}
+
+aside ul:first-of-type::before {
+  content: none; /* skip line above first */
 }
 
 aside ul:last-of-type {
-border-bottom: 1px dotted #ccc;
+  padding-bottom: 1.5em; /* bottom breathing room */
+  border-bottom: 1px dotted #ccc;
 }
 
 aside a {
@@ -387,6 +400,11 @@ color: #333333;
 
 aside a:hover {
 color: #a22a22;
+}
+
+aside a:visited {
+text-decoration: none;
+color: #333333;
 }
 
 /* Footer
