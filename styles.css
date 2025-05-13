@@ -101,6 +101,10 @@ text-align: justify;
 margin: 1em 0;
 }
 
+article h2 {
+scroll-margin-top: 120px;
+}
+
 p.subtitle1 {
 font-family: Verdana, sans-serif;
 font-size: 1em;
