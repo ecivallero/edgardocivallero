@@ -26,6 +26,7 @@ height: 200px;
 object-fit: cover;
 object-position: center;
 display: block;
+margin: 0 auto 1.5em auto;
 }
 
 .site-header {
