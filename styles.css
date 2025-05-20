@@ -233,6 +233,20 @@ article blockquote {
 margin: 1em 20px;
 }
 
+.pullquote {
+float: right;
+width: 40%;
+margin: 1em 0 1.5em 3em;
+font-size: 1.1em;
+background-color: #f0f0f0;
+padding: 1em;
+border-left: 5px solid #a22;
+font-style: italic;
+color: #333;
+line-height: 1.6em;
+font-family: Georgia, serif;
+}
+
 aside {
 width: 15%;
 float: right;
