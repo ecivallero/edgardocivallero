@@ -83,6 +83,88 @@ My name's Edgardo Civallero. Welcome to my website.</p>
 <div class="divcolor"></div>
 </section>
 
+<section class="temas-clave">
+<h2>Key topics</h2>
+<div class="temas-grid">
+
+<!-- Start of topic card 1 -->
+<div class="tema-card">
+<h3 class="tema-title">Insurgent Epistemologies and Decolonialism</h3>
+<p class="tema-description">
+Displaced, denied, illegible ways of knowing. Produced and remembered by force. Thought from the South, from the margin, and from the undocumented cry. What doesn't fit in the archive. Memory that doesn't ask permission.</p>
+
+<button class="toggle-includes" onclick="toggleIncludes(this)">+ View included topics</button>
+<div class="tema-includes" style="display: none;">
+<p><b>Includes:</b> Insurgent epistemologies, decolonial thought, epistemic critique, Southern knowledge systems, archival absences, structural silences, memoryless bodies, memoricide, the right to be forgotten, documented denial, epistemic invisibility, oralized knowledge.</p>
+</div>
+
+<a href="temas.html#anchor" class="tema-link">→ Read more</a>
+</div>
+<!-- End of topic card 1 -->
+
+<!-- Start of topic card 2 -->
+<div class="tema-card">
+<h3 class="tema-title">Critical Semantics and Library / Archive Composting</h3>
+<p class="tema-description">
+Composting "dead" libraries and archives to let something else take root. Knowledge technologies in service of other logics. Unexpected connections. Unpredictable weaves. Modeling the world without reproducing its violence.</p>
+
+<button class="toggle-includes" onclick="toggleIncludes(this)">+ View included topics</button>
+<div class="tema-includes" style="display: none;">
+<p><b>Includes:</b> Decomposition, fungal networks, mycelia, ontologies, RDF, metadata, taxonomies, living knowledge structures, critical documentation models, cataloging resistance, epistemic infrastructure, post-control classification, linked data as narrative tools, semantic subversion.</p>
+</div>
+
+<a href="temas.html#anchor" class="tema-link">→ Read more</a>
+</div>
+<!-- End of topic card 2 -->
+
+<!-- Start of topic card 3 -->
+<div class="tema-card">
+<h3 class="tema-title">Weaving of Memories and Meanings to Produce New Knowledge</h3>
+<p class="tema-description">
+Weaving with memories, remnants, and gestures. Binding fragments to build something greater. Making objects, publications, and tools that carry memory inside. It's not about representation — it's about embodiment. Every form is also a form of knowing.</p>
+
+<button class="toggle-includes" onclick="toggleIncludes(this)">+ View included topics</button>
+<div class="tema-includes" style="display: none;">
+<p><b>Includes:</b> Critical publishing, unconventional publications, book-objects, editorial boxes, semantic design, material storytelling, performative archives, embodied memory practices, tools with history.</p>
+</div>
+
+<a href="temas.html#anchor" class="tema-link">→ Read more</a>
+</div>
+<!-- End of topic card 3 -->
+
+<!-- Start of topic card 4 -->
+<div class="tema-card">
+<h3 class="tema-title">Margins, Epistemic Justice, and Othered Documents</h3>
+<p class="tema-description">
+Othered knowledges and memories. Documents that go unnamed. Orality, graffiti, basketry, ceramics, textiles, hairstyles, territory — archives without paper. The equality of knowledge systems. Ecologies of knowing, non-hegemonic epistemic networks. Working in the margins is how the center is made.</p>
+
+<button class="toggle-includes" onclick="toggleIncludes(this)">+ View included topics</button>
+<div class="tema-includes" style="display: none;">
+<p><b>Includes:</b> Expanded archives, unwritten documents, orality and performativity, nontraditional supports, situated knowledges, practices outside the norm, epistemic rights, knowledge justice, unarchivable memories, vernacular technologies, embodied pedagogies.</p>
+</div>
+
+<a href="temas.html#anchor" class="tema-link">→ Read more</a>
+</div>
+<!-- End of topic card 4 -->
+
+<!-- Start of topic card 5 -->
+<div class="tema-card">
+<h3 class="tema-title">Sounds and Silences</h3>
+<p class="tema-description">
+Musical instruments as archives. Soundscapes as libraries. Songs, noises, echoes, vibrations — ways of recording the unspeakable. And the silences that scream. Listening is also a way of archiving.</p>
+
+<button class="toggle-includes" onclick="toggleIncludes(this)">+ View included topics</button>
+<div class="tema-includes" style="display: none;">
+<p><b>Includes:</b> Soundscapes, traditional music, wind and percussion instruments, orality, field recordings, acoustic memory, vernacular sound technologies, archives of silence, insurgent phonographies, ritual singing, documentation of the ineffable.</p>
+</div>
+
+<a href="temas.html#anchor" class="tema-link">→ Read more</a>
+</div>
+<!-- End of topic card 5 -->
+
+</div>
+</section>
+
 <section>
 <p class="titular"><b>Chronicles of a biblio-naturalist</b> | The most recent post</p>
 <img class="img-crop" src="../imgpost/B.JPG" alt="Chronicles of a biblio-naturalist. The most recent post. By Edgardo Civallero" />
@@ -146,6 +228,15 @@ Solar panels and recycling do not make a fair library. The green discourse of th
 <!-- Fin del Pie -->
 
 <script src="../scripts/include.js"></script>
+
+<script>
+function toggleIncludes(button) {
+const includesDiv = button.nextElementSibling;
+const isVisible = includesDiv.style.display === "block";
+includesDiv.style.display = isVisible ? "none" : "block";
+button.textContent = isVisible ? "+ View included topics" : "− Hide";
+}
+</script>
 
 </body>
 </html>
