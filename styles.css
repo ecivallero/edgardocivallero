@@ -93,9 +93,10 @@ font-size: 1.3em;
 font-weight: normal;
 color: #696969;
 margin: 0;
-padding: 0;
+padding: 1px;
 line-height: 200%;
 text-align: left;
+scroll-margin-top: 120px;
 }
 
 h3 {
@@ -108,10 +109,6 @@ color: #333333;
 line-height: 2.3em;
 text-align: justify;
 margin: 1em 0;
-}
-
-article h2 {
-scroll-margin-top: 120px;
 }
 
 p.subtitle1 {
@@ -193,11 +190,11 @@ background: #ffffff;
 }
 
 .temas-clave h2 {
-  font-size: 2.2em;
-  margin-top: 0;
-  margin-bottom: 0.6em;
-  text-align: center;
-  font-weight: 600;
+font-size: 2.2em;
+margin-top: 0;
+margin-bottom: 0.6em;
+text-align: center;
+font-weight: 600;
 }
 
 .temas-grid {
@@ -231,6 +228,10 @@ font-size: 1em;
 line-height: 1.5em;
 margin-bottom: 1em;
 color: #444;
+}
+
+.tema-section {
+scroll-margin-top: 120px;
 }
 
 .tema-includes {
@@ -277,6 +278,21 @@ background-color: #f5ead4;
 
 .temas-grid .tema-card:nth-of-type(5) {
 background-color: #fdf6ea;
+}
+
+.tema-ideas, .tema-obras, .tema-links {
+padding-top: 0;
+padding-bottom: 0;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+padding-left: .2em;
+list-style-type: disc;
+}
+
+.tema-ideas li, .tema-obras li, .tema-links li {
+padding: 0;
+margin: 0 0 0.3em 0;
+line-height: 1.8;
 }
 
 /* Listas
