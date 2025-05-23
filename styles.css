@@ -181,6 +181,20 @@ margin: 0;
 z-index: 1000;
 }
 
+.under-construction {
+background-color: #f5f5f5;
+color: #b55a14;
+font-weight: 600;
+padding: 12px 20px;
+border-radius: 6px;
+text-align: center;
+margin: 0;
+display: block;
+}
+.under-construction i {
+margin-right: 8px;
+}
+
 /* Temas
 ----------------------------------------------- */
 
