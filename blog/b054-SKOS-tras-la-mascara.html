@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>SKOS tras la máscara | Bitácora de un bibliotecario | Edgardo Civallero</title>
+
+<!-- metadatos -->
+
+<meta charset="utf-8" />
+<meta name="description" content="Un ensayo analítico de Edgardo Civallero sobre cómo subvertir vocabularios controlados con SKOS, entre máscaras semánticas y resistencia cultural."/>
+<meta name="author" content="Edgardo Civallero" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../styles.css" />
+
+<!-- Fin CSS -->
+
+</head>
+
+<body>
+
+<!-- Inicio de la cabecera -->
+
+<header>
+
+<!-- Inicio de la barra de navegación #01 -->
+
+<div data-include="../includes/nav01-a.html"></div>
+
+<!-- Fin de la barra de navegación #01 -->
+
+<div class="divcolor"></div>
+
+<!-- Inicio de la imagen de cabecera -->
+
+<div class="site-header1"></div>
+
+<!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="../includes/nav02-a.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
+
+<div class="divcolor"></div>
+
+<div class="barra"></div>
+
+</header>
+
+<!-- Fin de la cabecera -->
+
+<!-- Inicio de Main -->
+
+<main>
+
+<!-- Inicio de article -->
+
+<article>
+
+<header>
+<img src="../imgpost/blog054.png" alt="Metadatos como revuelta (03 de 10)" />
+<p><a href="../index.html" title="Inicio">Inicio</a> > <a href="../bitacora.html" title="Blog Bitácora de un bibliotecario">Blog Bitácora de un bibliotecario</a> > Metadatos como revuelta (03 de 10)</p>
+<div class="divcolor"></div>
+<p class="subtitle1">Metadatos como revuelta (03 de 10)</p>
+<h1>SKOS tras la máscara</h1>
+<h2>Subvertir los vocabularios controlados mediante artimañas de datos enlazados</h2>
+</header>
+
+<p>&nbsp;</p>
+
+<section>
+<p class="notainicial">
+Este post forma parte de una serie que explora cómo los metadatos pueden convertirse en un espacio de resistencia, rechazo y subversión poética. Desde la clasificación hasta los datos enlazados, la serie investiga cómo las prácticas de catalogación pueden codificar formas de opresión, y cómo pueden ser reinventadas para desafiar los sistemas dominantes y hablar desde los márgenes. Todas las entradas de esta serie pueden consultarse en el <a href="../bitacora.html#metarevuelta" title="Bitácora">índice</a> de esta sección.</p>
+
+<p>&nbsp;</p>
+
+<h3>
+Los vocabularios controlados como jaulas</h3>
+<p>
+Algunas palabras nunca estuvieron destinadas a permanecer solas en el estéril aislamiento de una base de datos.</p>
+<p>
+Un río cuyo nombre cambia con la estación, una montaña cuyo verdadero nombre solo se pronuncia en ceremonias, una planta cuya identidad depende del momento, de quien la nombra y del propósito... No son meros "términos" a la espera de la aprobación de un indexador.</p>
+<p>
+Sin embargo, cuando entran en un vocabulario controlado como el Getty Art & Architecture Thesaurus o los Library of Congress Subject Headings, se les despoja de su movimiento y multiplicidad. Y se les asigna una etiqueta "autorizada / autoritaria" que aplana las relaciones que antes les daban vida.</p>
+<p>
+Es aquí donde entra en escena SKOS, el Sistema Simple de Organización del Conocimiento. Para la mayoría de las instituciones, SKOS no es más que una recomendación neutral del W3C: un marco limpio basado en RDF para publicar vocabularios en la web semántica. Promete "interoperabilidad semántica" y la vinculación ordenada de términos entre sistemas. Pero dentro de su aparente conformidad se esconde un potencial inesperado: SKOS puede ser moldeado, estratificado y "engañado" para que albergue epistemologías que los vocabularios dominantes nunca fueron diseñados para incluir. Para aquellos dispuestos a trabajar en los límites, SKOS deja de ser un mero estándar y pasa a convertirse en una máscara: una superficie sancionada bajo la cual pueden esconderse otros mundos.</p>
+<p>&nbsp;</p>
+<h3>
+La política de SKOS</h3>
+<p>
+Los vocabularios controlados no son diccionarios neutrales del mundo. Son instrumentos de legitimación que determinan lo que se considera real y recuperable dentro de la memoria institucional. Sus propiedades y estructuras, incluso en un estándar aparentemente abierto como SKOS, codifican decisiones sobre lo que se puede nombrar, cómo se puede describir y en qué idiomas o contextos será visible.</p>
+<p>
+En su uso más común, SKOS es una tríada de etiquetas: skos:prefLabel para el nombre oficial o "preferido", skos:altLabel para sinónimos y variantes reconocidas, y skos:hiddenLabel para cadenas de búsqueda que no se muestran en las interfaces. Alrededor de estas orbitan un conjunto de propiedades de nota —skos:note, skos:scopeNote, skos:historyNote— destinadas a proporcionar definición, contexto y procedencia. Las instituciones tratan estos campos como contenedores de descripciones técnicas; los insurgentes pueden tratarlos como oportunidades para una verdadera "travesura" epistémica.</p>
+<p>
+Esta es la tensión que subyace en el núcleo de SKOS: se creó para conciliar diferencias en aras de la interoperabilidad, pero las comunidades que buscan la soberanía sobre su propia nomenclatura pueden preservar las diferencias de formas que se resistan a la conciliación. SKOS puede servir a ambos, y ahí radica su paradójica utilidad.</p>
+<p>&nbsp;</p>
+<h3>
+Técnicas de guerrilla en el espacio semántico</h3>
+<p>
+Trabajar a contra-corriente de SKOS implica aprovechar la fricción entre sus usos previstos y sus usos posibles. Un punto de partida común es la inversión de las jerarquías de etiquetas. Si bien prefLabel está destinado a presentar el nombre "autorizado" de un concepto, nada impide que el catalogador utilice este campo para almacenar un nombre colonial o institucional con el único fin de cumplir con la normativa, mientras que los nombres verdaderamente reconocidos por las comunidades de origen se trasladan a altLabel. Para el sistema, son secundarios; para la comunidad, son primarios.</p>
+<p>
+Otra táctica se esconde en las sombras de hiddenLabel. Dado que los términos almacenados aquí no se muestran en las interfaces públicas, pueden contener nombres estacionales, referencias sagradas o expresiones contextuales específicas que serían inapropiadas para la circulación general. Siguen siendo detectables por las máquinas mediante consultas específicas, lo que permite su recuperación por parte de quienes saben cómo hacerlo, sin difundirlos indiscriminadamente.</p>
+<p>
+Más allá de las etiquetas, SKOS permite añadir propiedades RDF personalizadas junto con las suyas propias. Aquí, los profesionales pueden definir campos como mem:EstacionRitual, mem:ContextoDeParentesco o rit:CicloDeHistorias para codificar relaciones, temporalidades o roles ceremoniales que el esquema dominante no puede imaginar. Y dado que los conceptos SKOS pueden vincularse a varios vocabularios a la vez, un término puede tener una doble vida semántica, anclado simultáneamente en un sistema institucional y en una ontología paralela o microtesauro regido por una lógica comunitaria.</p>
+<p>&nbsp;</p>
+<h3>
+Una montaña con múltiples capas</h3>
+<p>
+Pensemos en una montaña en los Andes. En la base de datos nacional, aparece como "Cerro Blanco", un nombre colonial fijado como prefLabel. Sin embargo, a nivel local tiene otros dos nombres: uno para la estación húmeda y otro para la seca. Hay un cuarto nombre, que solo se utiliza en ciertos rituales y nunca se pronuncia fuera de la ceremonia. En SKOS, esta complejidad se puede conservar sin romper el marco institucional.</p>
+<p>
+Los campos altLabel pueden contener los nombres estacionales, cada uno marcado con su etiqueta de idioma en quechua. El nombre ritual puede colocarse en hiddenLabel: no aparecerá en la interfaz predeterminada, pero puede consultarse si se lo busca intencionadamente. Una propiedad personalizada podría registrar el contexto ceremonial, por ejemplo, el festival de Inti Raymi, y una skos:note puede indicar que el nombre del concepto varía según la estación y el ritual. Un enlace exactMatch a un tesauro mantenido por la comunidad garantiza que el lugar de la montaña en una epistemología indígena relacional permanezca intacto.</p>
+<p>
+Para un usuario institucional ocasional, se trata simplemente de un concepto SKOS con algunos sinónimos. Para aquellos que conocen la lógica más profunda del grafo, es un palimpsesto: un objeto con múltiples capas semánticas, cada una de las cuales se revela en el momento adecuado y a las personas adecuadas.</p>
+<p>&nbsp;</p>
+<h3>
+Los límites del engaño</h3>
+<p>
+Estas maniobras no están exentas de riesgo. Codificar datos sensibles en un grafo abierto significa que pueden ser recopilados, recontextualizados o utilizados indebidamente. Las etiquetas ocultas no son realmente invisibles: solo son menos visibles. Y el control institucional sobre los vocabularios implica que los significados estratificados pueden ser sobrescritos en nombre de la "estandarización".</p>
+<p>
+Por estas razones, el trabajo insurgente de SKOS exige mucho más que habilidades técnicas: requiere una postura ética. La negativa a codificar es una opción legítima: dejar ciertas propiedades en blanco y marcarlas como intencionalmente ausentes reconoce el conocimiento sin exponerlo. La divulgación por capas puede reducir el grafo público a un mínimo, al tiempo que se almacenan datos más ricos y protegidos en repositorios controlados por la comunidad. En algunos casos, los grafos efímeros, diseñados para caducar tras un periodo determinado, pueden garantizar que ciertas expresiones semánticas nunca se fijen de forma permanente.</p>
+<p>&nbsp;</p>
+<h3>
+Máscara y arma</h3>
+<p>
+SKOS no desmantelará las jerarquías incrustadas en los vocabularios controlados. No fue diseñado para ello. Sin embargo, gracias a sus campos opcionales, su apertura a las extensiones y su capacidad de duplicación semántica, ofrece un terreno propicio para la resistencia. Al tratar cada altLabel como un acto de recuperación, cada hiddenLabel como un rechazo a la captura, y cada enlace a un vocabulario paralelo como una afirmación de autonomía epistémica, los profesionales pueden convertir SKOS en algo más que una herramienta burocrática.</p>
+<p>
+En este trabajo, SKOS es tanto una máscara como un arma: satisface los requisitos formales de interoperabilidad al tiempo que lleva consigo un marco subyacente de soberanía. El grafo oficial permanece intacto por el bien de la institución; el insurgente prospera en sus intersticios. Lo que el sistema no puede ver, no lo puede controlar, y lo que no puede controlar, no lo puede contener por completo.</p>
+
+</section>
+
+<p>&nbsp;</p>
+
+<footer>
+<p><span style="font-size: 120%;"><b>Acerca de la entrada</b></span></p>
+<p>Texto: Edgardo Civallero.<br />
+Fecha de publicación:12.08.2025. <br />
+Foto: ChatGPT.</p>
+
+</footer>
+
+</article>
+
+<!-- Fin article -->
+
+<!-- Inicio de aside -->
+
+<div data-include="../includes/aside-a.html"></div>
+
+<!-- Fin de aside -->
+
+</main>
+
+<!-- Fin de main -->
+
+<!-- Inicio del pie -->
+
+<div data-include="../includes/footer-a.html"></div>
+
+<!-- Fin del Pie -->
+
+<script src="../scripts/include.js"></script>
+
+</body>
+</html>
