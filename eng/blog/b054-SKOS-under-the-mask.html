@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>SKOS Under the Mask | The Log of a Librarian | Edgardo Civallero</title>
+
+<!-- metadatos -->
+
+<meta charset="utf-8" />
+<meta name="description" content="An analytical essay by Edgardo Civallero on subverting controlled vocabularies with SKOS, weaving semantic masks and acts of cultural resistance."/>
+<meta name="author" content="Edgardo Civallero" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../../styles.css" />
+
+<!-- Fin CSS -->
+
+</head>
+
+<body>
+
+<!-- Inicio de la cabecera -->
+
+<header>
+
+<!-- Inicio de la barra de navegación #01 -->
+
+<div data-include="../../includes/naveng01-a.html"></div>
+
+<!-- Fin de la barra de navegación #01 -->
+
+<div class="divcolor"></div>
+
+<!-- Inicio de la imagen de cabecera -->
+
+<div class="site-header3"></div>
+
+<!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="../../includes/naveng02-a.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
+
+<div class="divcolor"></div>
+
+<div class="barra"></div>
+
+</header>
+
+<!-- Fin de la cabecera -->
+
+<!-- Inicio de Main -->
+
+<main>
+
+<!-- Inicio de article -->
+
+<article>
+
+<header>
+<img src="../../imgpost/blog054.png" alt="Metadata as Revolt (03 of 10)" />
+<p><a href="../english.html" title="Home">Home</a> > <a href="../blog.html" title="Blog The Log of a Librarian">Blog The Log of a Librarian</a> > Metadata as Revolt (03 of 10)</p>
+<div class="divcolor"></div>
+<p class="subtitle1">Metadata as Revolt (03 of 10)</p>
+<h1>SKOS Under the Mask</h1>
+<h2>Subverting Controlled Vocabularies Through Linked Data Trickery</h2>
+</header>
+
+<p>&nbsp;</p>
+
+<section>
+<p class="notainicial">
+This post is part of a series that explores how metadata can be used as a site of resistance, refusal, and poetic subversion. From classification to linked data, the series investigates how cataloging practices can encode oppression, and how they can be reimagined to challenge dominant systems and speak from the margins. Check all the posts in this section's <a href="../blog.html#metarevolt" title="Blog">index</a>.</p>
+
+<p>&nbsp;</p>
+
+<h3>
+Controlled Vocabularies as Cages</h3>
+<p>
+Some words were never meant to be held alone in the sterile isolation of a database cell.</p>
+<p>
+A river whose name changes with the season, a mountain whose true name is spoken only in ceremony, a plant whose identity depends on the time, the speaker, and the purpose — these are not mere "terms" waiting for an indexer's approval.</p>
+<p>
+Yet, when they enter a controlled vocabulary such as the Getty Art & Architecture Thesaurus or the Library of Congress Subject Headings, they are stripped of movement and multiplicity. One "authoritative" label is pinned to them, flattening the relations that once gave them life.</p>
+<p>
+It is here that SKOS —the Simple Knowledge Organization System— makes its entrance. To most institutions, SKOS is nothing more than a neutral W3C recommendation, a clean, RDF-based framework for publishing vocabularies on the semantic web. It promises "semantic interoperability" and the orderly linking of terms across systems. But within its apparent compliance lies an unexpected potential: SKOS can be bent, layered, and "tricked" into holding epistemologies that dominant vocabularies were never designed to carry. For those willing to work at its edges, it becomes less a standard and more a mask — a sanctioned surface under which other worlds can hide.</p>
+<p>&nbsp;</p>
+<h3>
+The Politics of SKOS</h3>
+<p>
+Controlled vocabularies are not neutral dictionaries of the world. They are instruments of legitimation, shaping what counts as real and retrievable within institutional memory. Their properties and structures, even in an ostensibly open standard like SKOS, encode decisions about what can be named, how it can be described, and in which languages or contexts it will be visible.</p>
+<p>
+In its most common usage, SKOS is a triad of labels: skos:prefLabel for the official or "preferred" name, skos:altLabel for recognized synonyms and variants, and skos:hiddenLabel for search-only strings not displayed in interfaces. Around these orbit a set of note properties —skos:note, skos:scopeNote, skos:historyNote— meant to provide definition, context, and provenance. Institutions treat these fields as containers for technical description; insurgents can treat them as openings for epistemic mischief.</p>
+<p>
+This is the tension at SKOS's core: it was built to reconcile difference for the sake of interoperability, but communities seeking sovereignty over their own naming may wish to preserve difference in ways that resist reconciliation. SKOS can serve both — and therein lies its paradoxical utility.</p>
+<p>&nbsp;</p>
+<h3>
+Guerrilla Techniques in Semantic Space</h3>
+<p>
+To work against the grain of SKOS is to exploit the friction between its intended and possible uses. A common point of departure is the inversion of label hierarchies. While prefLabel is meant to present the most "authoritative" name for a concept, nothing prevents the cataloger from using this field to store a colonial or institutional name purely for compliance, while shifting the true community-recognized names into altLabel. To the system, they are secondary; to the community, they are primary.</p>
+<p>
+Another tactic lies in the shadows of hiddenLabel. Because terms stored here are not displayed in public-facing interfaces, they can hold seasonal names, sacred references, or context-specific expressions that would be inappropriate for general circulation. They remain machine-discoverable through targeted queries, allowing their retrieval by those who know how — without broadcasting them indiscriminately.</p>
+<p>
+Beyond labels, SKOS permits the addition of custom RDF properties alongside its own. Here, practitioners can define fields such as mem:ritualSeason, mem:kinshipContext, or rit:storyCycle to encode relationships, temporalities, or ceremonial roles that the dominant schema cannot imagine. And because SKOS concepts can link to multiple vocabularies at once, a term may live a semantic double life — simultaneously anchored in an institutional system and in a parallel ontology or micro-thesaurus governed by community logic.</p>
+<p>&nbsp;</p>
+<h3>
+A Layered Mountain</h3>
+<p>
+Consider a mountain in the high Andes. In the national database, it appears as "Cerro Blanco," its colonial name fixed as the prefLabel. Locally, however, it has two other names: one for the wet season, one for the dry. A fourth, spoken only in certain rituals, is never uttered outside of ceremony. Within SKOS, this complexity can be retained without shattering the institutional frame.</p>
+<p>
+The altLabel fields can carry the seasonal names, each marked with its language tag in Quechua. The ritual name can be placed in hiddenLabel, where it will not appear in the default interface but can be queried intentionally. A custom property might record the ceremonial context —e.g., the festival of Inti Raymi— and a skos:note can signal that the concept's naming varies with season and ritual. An exactMatch link to a community-maintained thesaurus ensures that the mountain's place in a relational, Indigenous epistemology remains intact.</p>
+<p>
+To a casual institutional user, this is merely a SKOS concept with a few synonyms. To those inside the graph's deeper logic, it is a palimpsest: an object with multiple semantic skins, each revealed in the right time and to the right people.</p>
+<p>&nbsp;</p>
+<h3>
+The Limits of Trickery</h3>
+<p>
+Such maneuvers are not without risk. Encoding sensitive data in an open triplestore means it can be harvested, recontextualized, or misused. Hidden labels are not truly invisible; they are simply less visible. And institutional control over vocabularies means that carefully layered meanings can be overwritten in the name of "standardization."</p>
+<p>
+For these reasons, insurgent SKOS work demands more than technical skill — it requires an ethical stance. Encoding refusal is a legitimate option: leaving certain properties blank and marking them as intentionally absent acknowledges the knowledge without exposing it. Layered disclosure can keep the public graph minimal while storing richer, protected data in community-controlled repositories. In some cases, ephemeral graphs —designed to expire after a set period— can ensure that certain semantic expressions are never fixed in perpetuity.</p>
+<p>&nbsp;</p>
+<h3>
+Mask and Weapon</h3>
+<p>
+SKOS will not dismantle the hierarchies embedded in controlled vocabularies, nor was it designed to. But in its optional fields, its openness to extensions, and its capacity for semantic doubling, it offers a terrain for resistance. By treating every altLabel as an act of reclamation, every hiddenLabel as a refusal of capture, and every link to a parallel vocabulary as an assertion of epistemic autonomy, practitioners can turn SKOS into more than a compliance tool.</p>
+<p>
+In this work, SKOS is both mask and weapon: it satisfies the formal requirements of interoperability while carrying an underlayer of sovereign meaning. The official graph remains intact for the sake of the institution; the insurgent graph thrives in its interstices. What the system cannot see, it cannot control — and what it cannot control, it cannot fully contain.</p>
+
+</section>
+
+<p>&nbsp;</p>
+
+<footer>
+<p><span style="font-size: 120%;"><b>About this post</b></span></p>
+<p>Text: Edgardo Civallero.<br />
+Publication date: 12.08.2025.<br />
+Picture: ChatGPT.</p>
+</footer>
+
+</article>
+
+<!-- Fin article -->
+
+<!-- Inicio de aside -->
+
+<div data-include="../../includes/asideeng-a.html"></div>
+
+<!-- Fin de aside -->
+
+</main>
+
+<!-- Fin de main -->
+
+<!-- Inicio del pie -->
+
+<div data-include="../../includes/footereng-a.html"></div>
+
+<!-- Fin del Pie -->
+
+<script src="../../scripts/include.js"></script>
+
+</body>
+</html>
+
