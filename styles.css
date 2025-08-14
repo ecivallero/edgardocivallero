@@ -191,8 +191,20 @@ text-align: center;
 margin: 0;
 display: block;
 }
+
 .under-construction i {
 margin-right: 8px;
+}
+
+mark {
+background-color: white;
+font-style: italic;
+font-weight: bold;
+color: inherit;
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 4px;
+text-decoration-color: #999999;
 }
 
 /* Temas
