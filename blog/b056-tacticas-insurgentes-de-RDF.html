@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>Tácticas insurgentes de RDF | Bitácora de un bibliotecario | Edgardo Civallero</title>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.png?v=2">
+
+<!-- metadatos -->
+
+<meta charset="utf-8" />
+<meta name="description" content="Un ensayo analítico de Edgardo Civallero sobre cómo subvertir RDF y vocabularios controlados con propiedades insurgentes y resistencia cultural."/>
+<meta name="author" content="Edgardo Civallero" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../styles.css" />
+
+<!-- Fin CSS -->
+
+</head>
+
+<body>
+
+<!-- Inicio de la cabecera -->
+
+<header>
+
+<!-- Inicio de la barra de navegación #01 -->
+
+<div data-include="../includes/nav01-a.html"></div>
+
+<!-- Fin de la barra de navegación #01 -->
+
+<div class="divcolor"></div>
+
+<!-- Inicio de la imagen de cabecera -->
+
+<div class="site-header1"></div>
+
+<!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="../includes/nav02-a.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
+
+<div class="divcolor"></div>
+
+<div class="barra"></div>
+
+</header>
+
+<!-- Fin de la cabecera -->
+
+<!-- Inicio de Main -->
+
+<main>
+
+<!-- Inicio de article -->
+
+<article>
+
+<header>
+<img src="../imgpost/blog056.png" alt="Metadatos como revuelta (04 de 10)" />
+<p><a href="../index.html" title="Inicio">Inicio</a> > <a href="../bitacora.html" title="Blog Bitácora de un bibliotecario">Blog Bitácora de un bibliotecario</a> > Metadatos como revuelta (04 de 10)</p>
+<div class="divcolor"></div>
+<p class="subtitle1">Metadatos como revuelta (04 de 10)</p>
+<h1>Tácticas insurgentes de RDF</h1>
+<h2>Hackeando ontologías con olor, tacto y rechazo</h2>
+</header>
+
+<p>&nbsp;</p>
+
+<section>
+<p class="notainicial">
+Este post forma parte de una serie que explora cómo los metadatos pueden convertirse en un espacio de resistencia, rechazo y subversión poética. Desde la clasificación hasta los datos enlazados, la serie investiga cómo las prácticas de catalogación pueden codificar formas de opresión, y cómo pueden ser reinventadas para desafiar los sistemas dominantes y hablar desde los márgenes. Todas las entradas de esta serie pueden consultarse en el <a href="../bitacora.html#metarevuelta" title="Bitácora">índice</a> de esta sección.</p>
+
+<p>&nbsp;</p>
+
+<p>
+[Nota del autor: El término "insurgente" se usa aquí no en su sentido militar, sino como metáfora de intervenciones tácticas a pequeña escala contra infraestructuras dominantes. En el contexto de RDF y los metadatos, señala prácticas subversivas que doblan los estándares existentes para codificar la diferencia, el rechazo o la relación. No son actos de destrucción sino de supervivencia, creatividad y resistencia dentro de sistemas rígidos.]</p>
+<p>&nbsp;</p>
+<h3>
+La sintaxis como cosmovisión</h3>
+<p>
+RDF —el Resource Description Framework— suele describirse en términos mínimos: un modelo técnico para enunciados que asumen la forma de tripletas sujeto-predicado-objeto. En esa aparente simplicidad radica su fuerza ideológica: RDF parece poseer una sintaxis neutral. Una especie de sistema de fontanería que subyace a la web semántica.</p>
+<p>
+Sin embargo, toda sintaxis es también una cosmovisión. Forzar al conocimiento a caber en tripletas es decidir de antemano cómo puede conocerse el mundo.</p>
+<p>
+Una tripleta hace hincapié en la claridad, la separabilidad y la permanencia. Supone que el conocimiento puede descomponerse en tres partes estables, cada una atómica e intercambiable. Pero muchas formas de conocimiento se resisten a semejante disección. Una planta cuyo sentido surge de su aroma y su estacionalidad no puede reducirse a "cosa-propiedad-valor". Un canto ritual que solo existe performativamente no puede convertirse en un sujeto estable con atributos fijos. RDF, como toda infraestructura de información, lleva implícita una política: normaliza lo que cabe en su gramática y margina lo que no.</p>
+<p>&nbsp;</p>
+<h3>
+La ideología de las tripletas</h3>
+<p>
+El patrón sujeto-predicado-objeto no es un mero formalismo. Codifica una ontología particular de la relación. Los predicados describen posesión, ubicación, tipo o función. Rara vez describen rechazo, silencio o condicionalidad. Las gramáticas de RDF están, por lo tanto, más cerca de un contrato que de una narración. Son transaccionales, no relacionales.</p>
+<p>
+Esta ideología se vuelve visible cuando preguntamos: ¿qué no puede decirse en RDF? Podemos vincular un documento con un idioma usando dc:language, pero no podemos decir fácilmente que el idioma cambia según quién hable, o que solo existe en la oralidad. Podemos conectar a una persona con una fecha de nacimiento, pero no con el ciclo estacional de migración o de trabajo agrícola que estructura su vida. RDF se destaca por fijar atributos estáticos, pero es débil cuando el conocimiento es fluido, contextual o emergente.</p>
+<p>
+La gramática de RDF silencia este tipo de enunciados, a no ser que la hackeemos deliberadamente.</p>
+<p>&nbsp;</p>
+<h3>
+Propiedades insurgentes</h3>
+<p>
+La característica más subversiva de RDF es también la más obvia: cualquiera puede declarar nuevas propiedades. Esto suele presentarse como un mecanismo de extensión: una forma de hacer ajustes locales hasta que una propiedad se estandarice. Pero también puede usarse para inscribir epistemologías que nunca serán estandarizadas.</p>
+<p>
+Declarar predicados personalizados como mem:refusal (rechazo), rit:seasonality (estacionalidad ritual) o sac:embodiment (corporeidad sagrada) no es una simple personalización técnica. Es un acto político: la afirmación de que existen relaciones que los vocabularios dominantes no pueden reconocer. Estas propiedades abren grietas en la gramática de la universalidad. No buscan ser aceptadas por schema.org ni integradas en Dublin Core. Su intención es precisamente la de permanecer insurgentes: codificar la diferencia sin posibilidad de absorción.</p>
+<p>
+Un canto ritual, por ejemplo, podría aparecer en un grafo RDF no con dc:title sino con mem:withheldName (nombre retenido), marcando el hecho de que su identidad no puede hacerse pública. Una planta podría tener rit:smellProfile (perfil olfativo), conectándola al reconocimiento sensorial en lugar de a un taxón latino. Un archivo comunitario podría incluir mem:refusal como propiedad que vincula un objeto a la declaración de que el conocimiento sobre él se retiene deliberadamente. Cada una de estas tripletas usa RDF contra sí mismo: cumple con la sintaxis pero, al mismo tiempo, socava sus supuestos universalistas.</p>
+<p>&nbsp;</p>
+<h3>
+Hackeos sensoriales y relacionales</h3>
+<p>
+Las ontologías estándar son abrumadoramente textuales y visuales. Privilegian lo que puede nombrarse, transcribirse o representarse en imágenes. El RDF insurgente cuestiona: ¿cómo codificamos lo que se huele, se toca, se canta o se encarna?</p>
+<p>
+Pensemos en un paisaje reconocido por sus fragancias cambiantes: eucalipto en la estación seca, tapices musgosos en la lluviosa. Una ontología convencional tendría dificultades para representarlo. RDF solo puede sostenerlo si inventamos propiedades como rit:olfactoryCycle (ciclo olfativo). O tomemos un textil cuyo sentido no reside solo en su diseño, sino en cómo se siente al llevarlo puesto. Una propiedad como emb:contactTexture (textura de contacto) rompe el silencio impuesto por los predicados convencionales. Estos hackeos rechazan la invisibilidad impuesta por los esquemas formales.</p>
+<p>
+En cada uno de los casos anyteriores, RDF permanece estructuralmente intacto. La tripleta se resuelve. Pero su predicado ya no es inocente: porta la huella de una ontología que el sistema nunca esperó albergar.</p>
+<p>&nbsp;</p>
+<h3>
+El rechazo como modelado</h3>
+<p>
+Estas tácticas insurgentes no deberían limitarse a tratar de agregar predicados. También deberían intentar estructurar la ausencia. Para las disciplinas de gestión de conocimiento y memoria, un campo en blanco suele señalar error o incompletitud. El RDF insurgente reivindica el vacío como una declaración de rechazo.</p>
+<p>
+Al afirmar una propiedad como mem:refusal sin objeto, o al vincular un nodo a un recurso "retenido", marcamos la existencia de un conocimiento que no puede circular. Esto transforma los datos faltantes en silencio intencional. Rechaza la exigencia de que todo sea legible y recuperable. Codifica la responsabilidad en el propio grafo.</p>
+<p>&nbsp;</p>
+<h3>
+Riesgos y fragilidades</h3>
+<p>
+Por supuesto, el RDF "alterado" sigue siendo legible por una máquina. Una propiedad insurgente, una vez publicada, puede ser recolectada, indexada y despojada de su contexto. Un nodo oculto o en blanco puede ser sobrescrito en pos de una politica de "datos limpios". El sistema tiende a domesticar los gestos rebeldes. Por eso, las tácticas insurgentes deben incluir estrategias de evasión: publicar en grafos efímeros, controlar el acceso a los triplestores o incrustar advertencias contextuales que señalen a los lectores humanos lo que la máquina pasará por alto.</p>
+<p>
+Hackear RDF es, por lo tanto, aceptar la fragilidad. Estas tácticas nunca pueden garantizar soberanía. Pero sí pueden desestabilizar la afirmación de que RDF es neutral, universal o definitivo.</p>
+<p>&nbsp;</p>
+<h3>
+Hacia ontologías insurgentes</h3>
+<p>
+RDF nunca se convertirá en un lenguaje relacional. Fue diseñado para servir a la interoperabilidad, no a las lógicas fluidas de los mundos vividos. Sin embargo, su apertura lo convierte en un terreno para la insurgencia. Cada predicado personalizado recuerda que los supuestos universales de los metadatos no son destinos, sino simples valores por defecto.</p>
+<p>
+Tratar a RDF como un metafórico "campo de batalla" es insistir en que las ontologías no son solo dispositivos técnicos, sino artefactos políticos. Codificar olor, tacto, estacionalidad o rechazo dentro de RDF no es una cuestión de completitud. Es un acto de resistencia epistémica: una forma de mostrar que la sintaxis de las tripletas no puede contener todos los mundos, y que sus silencios nunca son neutrales.</p>
+<p>&nbsp;</p>
+<h3>
+Conclusión: la rebelión como cuidado</h3>
+<p>
+Estas tácticas no son sabotaje por el simple hecho de serlo. Son formas de cuidado. Cuidado de un conocimiento que debe permanecer parcial, protegido o encarnado. Cuidado de aquellas epistemologías que merecen ser inscritas sin ser asimiladas. Cuidado de los silencios, que no deben ser malinterpretados como vacíos.</p>
+<p>
+Las tácticas insurgentes de RDF exponen los límites de un sistema haciendo que esos límites trabajen contra sí mismos. No desmantelan la gramática de las tripletas, pero rechazan su autoridad para definir qué cuenta como conocimiento. Son recordatorios de que, incluso en las infraestructuras más rígidas, pueden declararse mundos insurgentes. Un predicado a la vez.</p>
+</section>
+
+<p>&nbsp;</p>
+
+<footer>
+<p><span style="font-size: 120%;"><b>Acerca de la entrada</b></span></p>
+<p>Texto: Edgardo Civallero.<br />
+Fecha de publicación:26.08.2025. <br />
+Foto: ChatGPT.</p>
+
+</footer>
+
+</article>
+
+<!-- Fin article -->
+
+<!-- Inicio de aside -->
+
+<div data-include="../includes/aside-a.html"></div>
+
+<!-- Fin de aside -->
+
+</main>
+
+<!-- Fin de main -->
+
+<!-- Inicio del pie -->
+
+<div data-include="../includes/footer-a.html"></div>
+
+<!-- Fin del Pie -->
+
+<script src="../scripts/include.js"></script>
+
+</body>
+</html>
