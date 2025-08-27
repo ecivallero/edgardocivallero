@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>RDF Guerrilla Tactics | The Log of a Librarian | Edgardo Civallero</title>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.png?v=2">
+
+<!-- metadatos -->
+
+<meta charset="utf-8" />
+<meta name="description" content="An analytical essay by Edgardo Civallero on subverting RDF and controlled vocabularies with custom predicates, insurgent ontologies, and cultural resistance."/>
+<meta name="author" content="Edgardo Civallero" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../../styles.css" />
+
+<!-- Fin CSS -->
+
+</head>
+
+<body>
+
+<!-- Inicio de la cabecera -->
+
+<header>
+
+<!-- Inicio de la barra de navegación #01 -->
+
+<div data-include="../../includes/naveng01-a.html"></div>
+
+<!-- Fin de la barra de navegación #01 -->
+
+<div class="divcolor"></div>
+
+<!-- Inicio de la imagen de cabecera -->
+
+<div class="site-header3"></div>
+
+<!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="../../includes/naveng02-a.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
+
+<div class="divcolor"></div>
+
+<div class="barra"></div>
+
+</header>
+
+<!-- Fin de la cabecera -->
+
+<!-- Inicio de Main -->
+
+<main>
+
+<!-- Inicio de article -->
+
+<article>
+
+<header>
+<img src="../../imgpost/blog056.png" alt="Metadata as Revolt (04 of 10)" />
+<p><a href="../english.html" title="Home">Home</a> > <a href="../blog.html" title="Blog The Log of a Librarian">Blog The Log of a Librarian</a> > Metadata as Revolt (04 of 10)</p>
+<div class="divcolor"></div>
+<p class="subtitle1">Metadata as Revolt (04 of 10)</p>
+<h1>RDF Guerrilla Tactics</h1>
+<h2>Hacking Ontologies with Smell, Touch, and Refusal</h2>
+</header>
+
+<p>&nbsp;</p>
+
+<section>
+<p class="notainicial">
+This post is part of a series that explores how metadata can be used as a site of resistance, refusal, and poetic subversion. From classification to linked data, the series investigates how cataloging practices can encode oppression, and how they can be reimagined to challenge dominant systems and speak from the margins. Check all the posts in this section's <a href="../blog.html#metarevolt" title="Blog">index</a>.</p>
+
+<p>&nbsp;</p>
+
+<p>
+[Note from the author: The term "guerrilla" is used here not in its military sense, but as a metaphor for small-scale, tactical interventions against dominant infrastructures. In the context of RDF and metadata, it signals subversive practices that bend existing standards to encode difference, refusal, or relation. These are not acts of destruction but of survival, creativity, and resistance inside rigid systems.]</p>
+<p>&nbsp;</p>
+<h3>
+Syntax as Worldview</h3>
+<p>
+RDF —the Resource Description Framework— is usually described in the most minimal of terms: a technical model for statements in the form of subject-predicate-object triples. This apparent simplicity is its ideological strength. It makes RDF look like a neutral syntax, a kind of plumbing beneath the semantic web.</p>
+<p>
+Yet every syntax is also a worldview. To force knowledge into triples is to decide in advance how the world can be known.</p>
+<p>
+The triple privileges clarity, separability, and permanence. It assumes that knowledge can be broken into three stable parts, each one atomic and interchangeable. But many knowledge forms resist such dissection. A plant whose meaning emerges from smell and seasonality cannot be reduced to "thing-property-value." A ritual song that exists only in performance cannot be stabilized as a subject with attributes. RDF, like all information infrastructures, carries a politics: it normalizes what fits its grammar and marginalizes what does not.</p>
+<p>&nbsp;</p>
+<h3>
+The Ideology of Triples</h3>
+<p>
+The subject-predicate-object pattern is not simply a formalism. It encodes a particular ontology of relation. Predicates describe possession, location, type, or function. They rarely describe refusal, silence, or conditionality. RDF grammars are thus closer to a contract than to a story. They are transactional, not relational.</p>
+<p>
+This ideology becomes visible when we ask: what cannot be said in RDF? We can link a document to a language using dc:language, but we cannot easily say that the language shifts depending on who is speaking, or that it only exists in oral performance. We can connect a person to a birth date, but not to the seasonal cycle of migration or agricultural work that structures their life. RDF excels at fixing static attributes; it falters when knowledge is fluid, contextual, or emergent.</p>
+<p>
+The grammar of RDF forecloses these kinds of statements, unless we deliberately hack it.</p>
+<p>&nbsp;</p>
+<h3>
+Guerrilla Properties</h3>
+<p>
+The most subversive feature of RDF is also the most obvious: anyone can declare new properties. This is usually framed as an extension mechanism — a way to make local adjustments until a property is standardized. But it can also be used to inscribe epistemologies that will never be standardized.</p>
+<p>
+Declaring custom predicates such as mem:refusal, rit:seasonality, or sac:embodiment is not mere technical customization. It is a political act: the assertion that relations exist which dominant vocabularies cannot recognize. These properties open cracks in the grammar of universality. They do not aim to be accepted by schema.org or merged into Dublin Core. Their very point is to remain insurgent — to encode difference without absorption.</p>
+<p>
+A ritual song, for example, might appear in an RDF graph not with dc:title but with mem:withheldName, marking the fact that its identity cannot be circulated. A plant might have rit:smellProfile, connecting it to sensory recognition instead of only to a Latin taxon. A community archive might include mem:refusal as a property linking an object to a statement that knowledge about it is deliberately withheld. Each of these triples uses RDF against itself: complying with the syntax while undermining its universalist assumptions.</p>
+<p>&nbsp;</p>
+<h3>
+Sensory and Relational Hacks</h3>
+<p>
+Standard ontologies are overwhelmingly textual and visual. They privilege what can be named, transcribed, or pictured. Guerrilla RDF asks: how do we encode what is smelled, touched, sung, or embodied?</p>
+<p>
+Consider a landscape known by its shifting fragrances — eucalyptus in the dry season, flowering groundcovers in the wet. A conventional ontology would struggle to represent this; RDF can hold it only if we invent properties like rit:olfactoryCycle. Or take a textile that carries meaning not in its design alone but in the way it feels when worn. A property such as emb:contactTexture breaks the silence imposed by conventional predicates. These hacks refuse the invisibility imposed by formal schemas.</p>
+<p>
+In each case, RDF remains structurally intact. The triple still resolves. But its predicate is no longer innocent: it carries the trace of an ontology that the system never expected to host.</p>
+<p>&nbsp;</p>
+<h3>
+Refusal as Modeling</h3>
+<p>
+Guerrilla tactics are not only about adding predicates. They are also about structuring absence. In information science, a blank field usually signals error or incompleteness. Guerrilla RDF reclaims the blank as a statement of refusal.</p>
+<p>
+By asserting a property such as mem:refusal with no object, or by linking a node to a "withheld" resource, we mark the existence of knowledge that cannot be circulated. This transforms missing data into intentional silence. It refuses the demand that everything be made legible and retrievable. It encodes responsibility into the graph itself.</p>
+<p>&nbsp;</p>
+<h3>
+Risks and Fragilities</h3>
+<p>
+Of course, the "altered" RDF remains machine-readable. A guerrilla property, once published, can be harvested, indexed, and stripped of context. A hidden or blank node may be overwritten in the name of "clean data." The system tends to domesticate insurgent gestures. This is why guerrilla tactics must include strategies of evasion: publishing in ephemeral graphs, controlling access to triplestores, or embedding contextual disclaimers that signal to human readers what the machine will miss.</p>
+<p>
+To hack RDF is therefore to accept fragility. These tactics can never guarantee sovereignty. But they can destabilize the claim that RDF is neutral, universal, or final.</p>
+<p>&nbsp;</p>
+<h3>
+Toward Insurgent Ontologies</h3>
+<p>
+RDF will never become a relational language. It was designed to serve interoperability, not the fluid logics of lived worlds. Yet its openness makes it a terrain for insurgency. Every custom predicate is a reminder that the so-called universals of metadata are only defaults, not destinies.</p>
+<p>
+To treat RDF as a metaphorical "battleground" is to insist that ontologies are not just technical devices but political artifacts. Encoding smell, touch, seasonality, or refusal within RDF is not a matter of completeness. It is an act of epistemic resistance: a way to show that the syntax of triples cannot contain all worlds, and that its silences are never neutral.</p>
+<p>&nbsp;</p>
+<h3>
+Conclusion: Rebellion as Care</h3>
+<p>
+These tactics are not sabotage for their own sake. They are forms of care. Care for the knowledge that must remain partial, protected, or embodied. Care for the epistemologies that deserve to be inscribed without being assimilated. Care for the silences that must not be misread as gaps.</p>
+<p>
+RDF guerrilla tactics expose the limits of a system by making those limits work against themselves. They do not dismantle the grammar of triples, but they refuse its authority to define what counts as knowledge. They are reminders that even in the most rigid infrastructures, insurgent worlds can be declared — one predicate at a time.</p>
+</section>
+
+<p>&nbsp;</p>
+
+<footer>
+<p><span style="font-size: 120%;"><b>About this post</b></span></p>
+<p>Text: Edgardo Civallero.<br />
+Publication date: 26.08.2025.<br />
+Picture: ChatGPT.</p>
+</footer>
+
+</article>
+
+<!-- Fin article -->
+
+<!-- Inicio de aside -->
+
+<div data-include="../../includes/asideeng-a.html"></div>
+
+<!-- Fin de aside -->
+
+</main>
+
+<!-- Fin de main -->
+
+<!-- Inicio del pie -->
+
+<div data-include="../../includes/footereng-a.html"></div>
+
+<!-- Fin del Pie -->
+
+<script src="../../scripts/include.js"></script>
+
+</body>
+</html>
+
