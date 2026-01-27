@@ -513,79 +513,45 @@ border-left: 15px solid #dfbf9f;
 /* Aside
 ----------------------------------------------- */
 
-aside {
-  font-size: 0.85em;
-  line-height: 1.3em;
-  color: #444;
-  font-weight: 400;
-}
-
-aside ul.titlelat li a,
-aside ul.titlelat01 li a {
-  font-size: 0.9em;
-  font-weight: 400;
-  line-height: 1.2em;
-  color: #333;
-  text-decoration: none;
-  display: block;
-  padding: 0.2em 0 0 0;
-  transition: color 0.3s ease;
-}
-
-aside ul.titlelat li a:hover,
-aside ul.titlelat01 li a:hover {
-  color: #777;
-}
-
 aside ul {
-  margin: 0;
-  padding: 1.5em 0;
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
-  list-style: none;
+margin: 0;
+padding: 1.5em 0;
+border-top: 1px dotted #ccc;
+border-bottom: 1px dotted #ccc;
+list-style: none;
 }
 
 aside li {
-  margin: 0;
-  padding: 0 0 0.5em 15px;
-  text-indent: -15px;
-  line-height: 1.6em;
-}
-
-.titlelat,
-.titlelat01 {
-  font-family: Verdana, sans-serif;
-  font-size: 1.1em;
-  text-align: left;
-  list-style: none;
+margin: 0;
+padding: 0 0 .25em 15px;
+text-indent: -15px;
+line-height: 2em;
 }
 
 .titlelat {
-  border-bottom: 1px dotted #ccc;
+font-family: Verdana, sans-serif;
+font-size: 1.1em;
+text-align: left;
+list-style: none;
+border-bottom: 1px dotted #ccc;
 }
 
 .titlelat01 {
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
+font-family: Verdana, sans-serif;
+font-size: 1.1em;
+text-align: left;
+list-style: none;
+border-top: 1px dotted #ccc;
+border-bottom: 1px dotted #ccc;
 }
 
-.titlelat a,
-.titlelat01 a {
-  text-decoration: none;
-  color: #333;
+.titlelat a, .titlelat01 a {
+text-decoration: none;
+color: #333333;
 }
 
-.titlelat a:hover,
-.titlelat01 a:hover {
-  color: #a22a22;
-}
-
-.sidebar-description {
-  font-size: 0.75em;
-  color: #666;
-  margin: 0.15em 0 0.8em 0;
-  padding-left: 1em;
-  line-height: 1.3em;
+.titlelat a:hover, .titlelat01 a:hover {
+color: #a22a22;
 }
 
 /* Footer
@@ -648,6 +614,43 @@ padding-right: 10px;
 .redes span:hover {
 opacity: 0.4;
 filter: alpha(opacity=40);
+}
+
+/* Tooltip
+----------------------------------------------- */
+
+.tooltip {
+position: relative;
+display: inline-block;
+cursor: help;
+font-size: 0.8em;
+color: #999;
+margin-left: 0.4em;
+}
+
+.tooltip-text {
+visibility: hidden;
+width: 220px;
+background-color: #fff;
+color: #444;
+text-align: left;
+padding: 0.5em;
+border: 1px solid #ccc;
+border-radius: 0.4em;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+position: absolute;
+z-index: 1;
+top: 1.2em;
+left: 0;
+opacity: 0;
+transition: opacity 0.3s ease;
+font-size: 0.75em;
+line-height: 1.3em;
+}
+
+.tooltip:hover .tooltip-text {
+visibility: visible;
+opacity: 1;
 }
 
 /* Small devices (phones)
