@@ -343,7 +343,7 @@ padding: 0;
 }
 
 article {
-width: 77%;
+width: 72%;
 float: left;
 margin: 0 auto 10%;
 padding: 0px 0px 20px 0px;
@@ -382,7 +382,7 @@ font-family: Georgia, serif;
 }
 
 aside {
-width: 15%;
+width: 18%;
 float: right;
 text-align: left;
 margin: 0 auto;
@@ -552,6 +552,17 @@ color: #333333;
 
 .titlelat a:hover, .titlelat01 a:hover {
 color: #a22a22;
+}
+
+.sidebar-description {
+font-size: 0.75em;
+color: #555;
+font-family: inherit;
+font-weight: inherit;
+margin: 0.2em 0 1em 0;
+padding: 0;
+line-height: 1.3em;
+text-indent: 0;
 }
 
 /* Footer
