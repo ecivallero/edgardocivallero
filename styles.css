@@ -556,13 +556,11 @@ color: #a22a22;
 
 .sidebar-description {
 font-size: 0.75em;
-color: #555;
-font-family: inherit;
-font-weight: inherit;
-margin: 0.2em 0 1em 0;
-padding: 0;
-line-height: 1.3em;
-text-indent: 0;
+color: #aa4444;
+margin: 0.1em 0 0.8em 0;
+line-height: 1.2em;
+text-align: left;
+padding-left: 0;
 }
 
 /* Footer
