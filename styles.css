@@ -619,38 +619,13 @@ filter: alpha(opacity=40);
 /* Tooltip
 ----------------------------------------------- */
 
-.tooltip {
-position: relative;
-display: inline-block;
-cursor: help;
-font-size: 0.8em;
-color: #999;
-margin-left: 0.4em;
-}
-
-.tooltip-text {
-visibility: hidden;
-width: 220px;
-background-color: #fff;
-color: #444;
-text-align: left;
-padding: 0.5em;
-border: 1px solid #ccc;
-border-radius: 0.4em;
-box-shadow: 0 0 5px rgba(0,0,0,0.1);
-position: absolute;
-z-index: 1;
-top: 1.2em;
-left: 0;
-opacity: 0;
-transition: opacity 0.3s ease;
-font-size: 0.75em;
-line-height: 1.3em;
-}
-
-.tooltip:hover .tooltip-text {
-visibility: visible;
-opacity: 1;
+.info-icon {
+font-size: 0.6em;
+color: #a22a22;
+margin-left: 0.3em;
+vertical-align: super;
+font-family: sans-serif;
+line-height: 1;
 }
 
 /* Small devices (phones)
