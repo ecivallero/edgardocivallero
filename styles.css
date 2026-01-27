@@ -616,18 +616,6 @@ opacity: 0.4;
 filter: alpha(opacity=40);
 }
 
-/* Tooltip
------------------------------------------------ */
-
-.info-icon {
-font-size: 0.6em;
-color: #a22a22;
-margin-left: 0.3em;
-vertical-align: super;
-font-family: sans-serif;
-line-height: 1;
-}
-
 /* Small devices (phones)
 ----------------------------------------------- */
 
