@@ -555,11 +555,19 @@ color: #a22a22;
 
 .sidebar-description {
 font-size: 0.75em;
-color: #aa4444;
+color: #a22a22;
 margin: 0.1em 0 0.8em 0;
-line-height: 1.2em;
+line-height: 1.3em;
+display: block;
 text-align: left;
-padding-left: 0;
+text-indent: 0;
+}
+
+.sidebar-description::before {
+content: "►  ";
+color: #a22a22;
+font-size: 0.75em;
+margin-right: 0.4em;
 }
 
 /* Footer
