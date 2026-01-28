@@ -1,13 +1,6 @@
 /* Estructura básica
 ----------------------------------------------- */
 
-@font-face {
-  font-family: 'modernline';
-  src: url('modernline.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 *, *::before, *::after {
 box-sizing: border-box;
 }
@@ -524,56 +517,6 @@ padding-right: 10px;
 opacity: 0.4;
 filter: alpha(opacity=40);
 }
-
-
-
-.section-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 2.5em;
-  padding-bottom: 1.5em;
-  border-bottom: 1px dotted #ccc;
-}
-
-.section-title {
-  width: 30%;
-  font-family: moderline, Georgia, serif;
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #a22a22;
-  text-transform: lowercase;
-  text-align: left;
-  padding-right: 1em;
-}
-
-.section-content {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.section-item a {
-  font-family: Verdana, sans-serif;
-  font-size: 1em;
-  font-weight: bold;
-  color: #222;
-  text-decoration: none;
-}
-
-.section-item a:hover {
-  color: #a22a22;
-}
-
-.section-item p {
-  font-size: 0.85em;
-  color: #666;
-  margin: 0.2em 0 0;
-  line-height: 1.3em;
-}
-
-
-
 
 /* Small devices (phones)
 ----------------------------------------------- */
