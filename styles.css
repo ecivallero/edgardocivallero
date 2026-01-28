@@ -658,4 +658,9 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+.sidebar-description {
+text-align: center !important;
+display: block;
+}
+
 }
