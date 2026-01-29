@@ -585,6 +585,7 @@ white-space: nowrap;
 .sentence {
 padding: 10px 5px;
 margin: 0 3px;
+font-size: 0.9em;
 }
 
 .main-menu {
