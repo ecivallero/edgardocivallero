@@ -195,6 +195,28 @@ font-style: normal;
 font-weight: 600;
 }
 
+h1:has(.section-number) {
+display: flex;
+align-items: center;
+font-size: 2rem;
+margin: 1rem 0;
+}
+
+.section-number {
+background-color: #a22a22;
+color: white;
+width: 3rem;
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Fredericka the Great', cursive;
+font-size: 1.5rem;
+font-weight: bold;
+border-radius: 0.25rem;
+margin-right: 1rem;
+}
+
 /* Listas
 ----------------------------------------------- */
 
