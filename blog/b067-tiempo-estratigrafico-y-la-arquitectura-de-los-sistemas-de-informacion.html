@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>Tiempo estratigráfico y la arquitectura de los sistemas de información | Bitácora de un bibliotecario | Edgardo Civallero</title>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.png?v=2">
+
+<!-- metadatos -->
+
+<meta charset="utf-8" />
+<meta name="description" content="Un ensayo analítico de Edgardo Civallero sobre la temporalidad estratigráfica en los sistemas de información, que examina cómo el versionado, la procedencia y el modelado semántico codifican el tiempo lineal y propone una arquitectura basada en la profundidad para representar transformaciones estratificadas."/>
+<meta name="author" content="Edgardo Civallero" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Stylesheets -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../styles.css" />
+
+<!-- Fin CSS -->
+
+</head>
+
+<body>
+
+<!-- Inicio de la cabecera -->
+
+<header>
+
+<!-- Inicio de la barra de navegación #01 -->
+
+<div data-include="../includes/nav01-a.html"></div>
+
+<!-- Fin de la barra de navegación #01 -->
+
+<div class="divcolor"></div>
+
+<!-- Inicio de la imagen de cabecera -->
+
+<div class="site-header1"></div>
+
+<!-- Fin de la imagen de cabecera -->
+
+<!-- Inicio de la barra de navegación #02 -->
+
+<div data-include="../includes/nav02-a.html"></div>
+
+<!-- Fin de la barra de navegación #02 -->
+
+<div class="divcolor"></div>
+
+<div class="barra"></div>
+
+</header>
+
+<!-- Fin de la cabecera -->
+
+<!-- Inicio de Main -->
+
+<main>
+
+<!-- Inicio de article -->
+
+<article>
+
+<header>
+<img src="../imgpost/blog067.png" alt="Notas de campo ecosemióticas (05)" />
+<p><a href="../index.html" title="Inicio">Inicio</a> > <a href="../bitacora.html" title="Blog Bitácora de un bibliotecario">Blog Bitácora de un bibliotecario</a> > Notas de campo ecosemióticas (05)</p>
+<div class="divcolor"></div>
+<p class="subtitle1">Notas de campo ecosemióticas (05)</p>
+<h1>Tiempo estratigráfico y la arquitectura de los sistemas de información</h1>
+<h2>Una reconsideración del versionado, la procedencia y el modelado temporal</h2>
+</header>
+
+<p>&nbsp;</p>
+
+<section>
+<p class="notainicial">
+Este post forma parte de una serie que explora cómo los metadatos pueden convertirse en un espacio de resistencia, rechazo y subversión poética. Desde la clasificación hasta los datos enlazados, la serie investiga cómo las prácticas de catalogación pueden codificar formas de opresión, y cómo pueden ser reinventadas para desafiar los sistemas dominantes y hablar desde los márgenes. Todas las entradas de esta serie pueden consultarse en el <a href="../bitacora.html#metarevuelta" title="Bitácora">índice</a> de esta sección.</p>
+
+<p>&nbsp;</p>
+
+<h3>
+Tiempo lineal como infraestructura</h3>
+<p>
+Históricamente, la Bibliotecología y la Documentación han operacionalizado el tiempo como una secuencia. La descripción bibliográfica prioriza la fecha de publicación; la organización archivística suele mantener un orden cronológico dentro de sus fondos; los sistemas de preservación digital registran los eventos en registros ordenados; los sistemas de control de versiones incrementan los estados numéricamente. Estas convenciones no son meras opciones prácticas. Codifican un compromiso ontológico: que la temporalidad es externa al registro y puede representarse como una progresión lineal de momentos discretos.</p>
+<p>
+Este compromiso está arraigado en estándares y protocolos. Campos MARC como 260 y 264 sitúan las obras dentro de coordenadas temporales que facilitan la clasificación y el control de autoridades. El elemento de fecha de Dublin Core funciona como un marcador escalar, reducible a formatos legibles por máquina que permiten el filtrado cronológico. En entornos de preservación, los eventos PREMIS documentan las acciones realizadas en objetos digitales en secuencias con marca de tiempo. Incluso en las arquitecturas de la web semántica, el modelado temporal suele basarse en intervalos ordenados, instantes y relaciones de sucesión.</p>
+<p>
+Estas infraestructuras presuponen que un registro puede separarse de su contexto, estabilizarse y ubicarse a lo largo de una línea temporal sin distorsión ontológica. El tiempo se trata como metadatos: un atributo añadido a una entidad que, de otro modo, sería autónoma. La persistencia de este modelo refleja los orígenes administrativos de la práctica archivística y la dependencia de la tradición bibliográfica de la cronología de las publicaciones como principio organizador.</p>
+<p>&nbsp;</p>
+<h3>
+Versionado y la lógica de la sucesión</h3>
+<p>
+Los entornos digitales han intensificado este modelo lineal mediante sistemas de versionado formalizados. En la arquitectura de los repositorios, los objetos adquieren identificadores que persisten tras las actualizaciones, mientras que las nuevas versiones se enumeran. Los sistemas basados en softwares como Git articulan la ramificación y la fusión, pero incluso estas estructuras más complejas mantienen la premisa subyacente de una sucesión trazable. Cada estado deriva de uno anterior: el historial del objeto se representa como una ruta a través de un grafo cuyos bordes implican un orden temporal.</p>
+<p>
+En los metadatos de archivo, una lógica similar rige el registro de migraciones, de cambios de formato y de comprobaciones. Un objeto digital existe en el estado A, experimenta un evento en el momento t1, pasa al estado B, y así sucesivamente. La integridad se demuestra mediante la capacidad de reconstruir esta secuencia. El peso epistémico reside en la cadena: la autenticidad se preserva al demostrar la continuidad a través de una serie ordenada de transformaciones.</p>
+<p>
+Esta comprensión procedimental del tiempo privilegia la trazabilidad sobre la estratificación. Los estados anteriores se conservan como instancias recuperables, pero se sustituyen conceptualmente. La versión 3 reemplaza a la versión 2 en uso activo; los estados previos se convierten en residuos, accesibles bajo demanda. La temporalidad se concibe como un movimiento hacia adelante a través de iteraciones discretas.</p>
+<p>
+El modelo estratigráfico sugerido por los sistemas de raíces del subsuelo de un bosque pone en duda esta suposición. Si la experiencia temporal se materializa como modificación espacial en lugar de como reemplazo secuencial, entonces el versionado podría reconsiderarse no como sucesión, sino como compresión. La historia de transformación de un documento podría entenderse como sedimentada dentro de su configuración actual, en lugar de externalizada como una lista de estados anteriores. En dicho modelo, las formas anteriores no son simplemente recuperables; son constitutivas del presente.</p>
+<p>&nbsp;</p>
+<h3>
+Procedencia más allá del linaje singular</h3>
+<p>
+La teoría archivística tradicional ha considerado la procedencia como la piedra angular de la integridad contextual. Los documentos están vinculados a un creador, y ese vínculo establece tanto la autoridad como el marco interpretativo. Si bien los paradigmas poscustodia han ampliado esta perspectiva para reconocer la custodia distribuida y los entornos en red, la procedencia aún se representa con frecuencia como un linaje, incluso cuando intervienen múltiples agentes.</p>
+<p>
+La documentación digital complica este modelo. Los documentos circulan entre plataformas, se enriquecen con sucesivas capas de metadatos y se transforman mediante la agregación, la digitalización y la reutilización. Los objetos resultantes son poliprovenenciales en la práctica, incluso si los marcos descriptivos tienen serias dificultades para articular semejante condición. El modelado temporal sigue siendo en gran medida aditivo: los nuevos contribuyentes se añaden como agentes adicionales en una secuencia de eventos.</p>
+<p>
+Un enfoque estratigráfico de la procedencia enfatizaría la superposición en lugar de la sucesión. En lugar de concebir a los creadores y custodios como ocupantes discretos en el tiempo, reconocería que sus contribuciones coexisten dentro de la forma actual del documento. Los metadatos creados durante la digitalización no se limitarían a seguir la inscripción original, sino que reconfigurarían su funcionamiento. Las anotaciones de los usuarios, los enriquecimientos algorítmicos y las posteriores intervenciones curatoriales no serían comentarios externos, sino modificaciones estructurales.</p>
+<p>
+Representar esta autoría estratificada requiere ir más allá de las cadenas lineales, hacia mapeos topológicos de relaciones. La profundidad temporal se expresaría no solo mediante fechas, sino también mediante la densidad relacional: el grado en que un registro ha sido recontextualizado, traducido o integrado en nuevos sistemas. La procedencia deja de ser una cuestión de origen para convertirse en una cuestión de entrelazamiento.</p>
+<p>&nbsp;</p>
+<h3>
+Ontologías temporales y modelado semántico</h3>
+<p>
+Las tecnologías de la web semántica han introducido representaciones temporales más flexibles mediante ontologías capaces de expresar intervalos, duraciones y relaciones entre eventos. OWL-Time y los vocabularios relacionados permiten modelar instantes, eventos recurrentes y contención temporal. Sin embargo, incluso estos marcos suelen conservar una orientación fundamentalmente cronológica. Describen cuándo ocurrió algo y cómo se relacionan los eventos de forma ordenada, pero rara vez captan cómo los estados anteriores persisten estructuralmente dentro de los posteriores.</p>
+<p>
+Para incorporar la temporalidad estratigráfica, los modelos semánticos necesitarían expresar la transformación como reconfiguración espacial en lugar de mera sucesión. Predicados como "se transformó en" o "incorpora rastro de" podrían complementar las relaciones temporales estándar. El objetivo no sería abandonar la descripción cronológica, sino enriquecerla con un vocabulario capaz de representar la compresión, la recurrencia y la persistencia en capas.</p>
+<p>
+Este modelado tendría implicaciones para los metadatos de preservación. En lugar de documentar cada migración únicamente como un evento con marca de tiempo, los sistemas podrían codificar cómo los formatos anteriores continúan moldeando la accesibilidad, la interpretación o la funcionalidad actuales. Los estándares obsoletos y los esquemas obsoletos no aparecerían simplemente como notas históricas, sino como sustratos activos que influyen en las configuraciones actuales.</p>
+<p>
+Este cambio alinearía el modelado temporal más estrechamente con las nociones ecológicas de continuidad. En los sistemas vivos, las condiciones antiguas no desaparecen cuando surgen condiciones nuevas, sino que modifican el sustrato en el que se produce dicho cambio. Para trasladar esta perspectiva a la infraestructura de la Bibliotecolkogía y las Ciencias de la Información, es necesario reconocer que los sistemas de información también son entornos moldeados por intervenciones acumuladas.</p>
+<p>&nbsp;</p>
+<h3>
+Diseñando para la profundidad temporal</h3>
+<p>
+Reconceptualizar el tiempo como profundidad, en lugar de como secuencia, también desafía el diseño de las interfaces de usuario. La mayoría de los sistemas de búsqueda presentan los registros a lo largo de líneas temporales, u ordenan los resultados por fecha. Si bien esos esquemas son eficaces para determinadas consultas, refuerzan la idea de que la relevancia está ligada a la actualidad o a la ubicación histórica a lo largo de una línea.</p>
+<p>
+Unas interfaces que visualicen densidad relacional, capas de anotación o grados de integración contextual podrían ofrecer alternativas para abordar la complejidad temporal. En lugar de presentar un documento como un punto en una línea de tiempo, esos sistemas podrían representarlo como un nodo dentro de una red estratificada, donde las contribuciones anteriores y posteriores coexisten visiblemente.</p>
+<p>
+Este enfoque no rechaza la información cronológica. La sitúa dentro de una ecología temporal más amplia. La fecha sigue siendo importante, pero deja de monopolizar la representación del tiempo. El énfasis se centra en comprender cómo los registros acumulan modificaciones y cómo estas modificaciones condicionan el significado actual.</p>
+<p>&nbsp;</p>
+<h3>
+Hacia una Ciencia de la Información estratigráfica</h3>
+<p>
+Adoptar un modelo estratigráfico del tiempo en Bibliotecología y Ciencias de la Información  no implica abandonar los estándares existentes. La cronología sigue siendo indispensable para fines legales, administrativos e históricos. Sin embargo, tratarla como el modo exclusivo o principal de representación temporal limita la capacidad del campo para modelar transformaciones complejas.</p>
+<p>
+La metáfora del subsuelo, donde las raíces almacenan el tiempo espacialmente, invita a reconsiderar los supuestos fundamentales. Los registros pueden entenderse mejor como configuraciones moldeadas por intervenciones en capas, en lugar de como secuencias de estados reemplazables. La creación de versiones se convierte en una expresión del cambio acumulado; la procedencia, en una topología de relaciones; la preservación, en la gestión de la profundidad temporal.</p>
+<p>
+Esta reorientación no idealizaría los procesos ecológicos ni impondría analogías naturales acríticamente. En cambio, reconocería que los sistemas de información, al igual que los sistemas ecológicos, se estructuran por la forma en la que incorporan sus propias historias. Diseñar infraestructuras que presten atención a la profundidad temporal implica reconocer que la memoria persiste no solo avanzando a lo largo de una línea, sino incorporando las transformaciones pasadas a la arquitectura del presente.</p>
+<p>&nbsp;</p>
+<p>
+<span class="fa fa-share-square" style="color: #999999;"></span>&nbsp;&nbsp;Esta entrada refleja la crónica "<a href="../cronicas/c016-donde-las-raices-guardan-el-tiempo.html" title="Donde las raíces guardan el tiempo">Donde las raíces guardan el tiempo</a>", una reflexión narrativa sobre el mismo tema.</p>
+</section>
+
+<p>&nbsp;</p>
+
+<footer>
+<p><span style="font-size: 120%;"><b>Acerca de la entrada</b></span></p>
+<p>Texto: Edgardo Civallero.<br />
+Fecha de publicación: 24.02.2026. <br />
+Foto: ChatGPT.</p>
+
+</footer>
+
+</article>
+
+<!-- Fin article -->
+
+<!-- Inicio de aside -->
+
+<div data-include="../includes/aside-a.html"></div>
+
+<!-- Fin de aside -->
+
+</main>
+
+<!-- Fin de main -->
+
+<!-- Inicio del pie -->
+
+<div data-include="../includes/footer-a.html"></div>
+
+<!-- Fin del Pie -->
+
+<script src="../scripts/include.js"></script>
+
+</body>
+</html>
