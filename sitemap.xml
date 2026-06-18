@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
@@ -9,619 +13,623 @@
 
 <url>
   <loc>https://edgardocivallero.com/</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/perfil.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/bitacora.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/blog/b080-primero-la-comunidad-despues-la-institucion.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/blog/b078-liberando-las-bibliotecas-de-las-agendas-institucionales.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/blog/b079-los-libros-de-cobre-de-las-islas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/cronicas/c021-el-desierto-recuerda-en-fragmentos.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/notas/n028-desde-quisquiza-08-telaranas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b076-construyendo-espacios-para-la-resistencia.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b077-el-name-que-desaparece.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/cronicas/c020-como-dormir-sin-perder-la-forma.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/notas/n027-desde-quisquiza-07-orquideas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/wayrachakieditora.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/publicaciones.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/index.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/editoriales.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/estudioparamuno.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n026-desde-quisquiza-06-liquen.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b077-el-name-que-desaparece.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n025-desde-quisquiza-05-musgo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b076-construyendo-espacios-para-la-resistencia.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n024-desde-quisquiza-04-agua.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b075-decolonizando-la-bibliotecologia-comunitaria.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n023-desde-quisquiza-03-suelo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b074-memorias-que-contraatacan.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n022-desde-quisquiza-02-altitud.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b072-que-hacen-realmente-los-bibliotecarios-comunitarios.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n021-desde-quisquiza-01-coordenadas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b070-las-raices-radicales-de-la-bibliotecologia-comunitaria.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n020-la-pagina-no-puede-contener-la-danza.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b073-sin-un-centro-fijo.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n019-el-usuario-analfabeto.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b071-los-margenes-como-infraestructura.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n018-literocentrismo-digital.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b069-el-ritmo-de-la-preservacion.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n017-programacion-para-los-alfabetizados.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b067-tiempo-estratigrafico-y-la-arquitectura-de-los-sistemas-de-informacion.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n016-metadatos-para-la-palabra-escrita.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b065-el-sentido-que-se-pierde-al-ser-desarraigado.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n015-comercio-y-control.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b063-interoperabilidad-como-simbiosis.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n014-cita-requerida.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b061-documentacion-mas-alla-del-control.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n013-mundos-silenciados.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b059-bibliotecologia-del-compost.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n012-estanterias-sagradas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b068-metadatos-como-trabajo-de-memoria.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n011-la-lectura-es-la-reina.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b066-infraestructuras-de-rendicion-de-cuentas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n010-hacia-las-bibliotecas-regenerativas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b064-los-metadatos-como-mediacion.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n009-justicia-ecologica-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b062-microtesauros-y-logicas-relacionales.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n008-biomimesis-y-diseno-bibliotecario.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b060-notas-epistemicas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n007-upcycling-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b058-las-aristas-criticas-de-dublin-core.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n006-minimalismo-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b056-tacticas-insurgentes-de-RDF.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n005-decrecimiento-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b054-SKOS-tras-la-mascara.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n004-sostenibilidad-simbolica-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b004-notas-desde-el-paramo.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n003-ilusion-del-carbono-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b003-sonidos-y-silencios-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n002-bibliotecas-verdes-y-costes-ocultos.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b002-descolonizar-las-bibliotecas-02.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://edgardocivallero.com/notas/n001-rompiendo-con-lo-verde.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/bitacora.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <loc>https://edgardocivallero.com/blog/b001-descolonizar-las-bibliotecas-01.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/libros01.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/libros03.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/libros02.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/elzorrodeabajoeditora.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/copyright.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch22-acceso-abierto.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch01-bibliotecas-desde-el-sur.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch02-bibliotecas-en-los-margenes.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch27-bibliotecas-indigenas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch03-bibliotecas-publicas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch26-bibliotecologia-critica.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch04-bibliotecologia-e-investigacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch07-blog-bibliotecario.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch08-blog-bitacora-de-un-bibliotecario.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch05-blog-princh-library.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch06-brecha-digital.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch10-clasificacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch09-columna-libros-y-lecturas-indigenas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch11-columna-los-muchos-caminos.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch12-columna-palabras-ancladas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch13-columna-palabras-habitadas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch14-copyright.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch15-decrecimiento.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch16-educacion-bibliotecaria.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch28-galapagos.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch17-historia-del-libro.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch18-humanidades-digitales.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch19-medium.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch20-memoria-y-memoricidio.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch21-notas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch25-oralidad-y-tradicion-oral.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch23-sostenibilidad.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/archivo/arch24-weblogs.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/grabaciones.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b079-los-libros-de-cobre-de-las-islas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b078-liberando-las-bibliotecas-de-las-agendas-institucionales.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b075-decolonizando-la-bibliotecologia-comunitaria.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b074-memorias-que-contraatacan.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b072-que-hacen-realmente-los-bibliotecarios-comunitarios.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b070-las-raices-radicales-de-la-bibliotecologia-comunitaria.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b073-sin-un-centro-fijo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b071-los-margenes-como-infraestructura.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b069-el-ritmo-de-la-preservacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b067-tiempo-estratigrafico-y-la-arquitectura-de-los-sistemas-de-informacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b065-el-sentido-que-se-pierde-al-ser-desarraigado.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b063-interoperabilidad-como-simbiosis.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b061-documentacion-mas-alla-del-control.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b059-bibliotecologia-del-compost.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b068-metadatos-como-trabajo-de-memoria.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b066-infraestructuras-de-rendicion-de-cuentas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b064-los-metadatos-como-mediacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b062-microtesauros-y-logicas-relacionales.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b060-notas-epistemicas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b058-las-aristas-criticas-de-dublin-core.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b056-tacticas-insurgentes-de-RDF.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b054-SKOS-tras-la-mascara.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b004-notas-desde-el-paramo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b003-sonidos-y-silencios-en-bibliotecas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b002-descolonizar-las-bibliotecas-02.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/blog/b001-descolonizar-las-bibliotecas-01.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://edgardocivallero.com/cronicas/c021-el-desierto-recuerda-en-fragmentos.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c019-no-hay-servidor-central.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c018-el-musgo-es-un-sistema-marginal.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c017-los-frailejones-saben-esperar.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c016-donde-las-raices-guardan-el-tiempo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c015-el-bosque-nublado-no-archiva.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c014-nada-existe-de-forma-aislada.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c013-la-luz-como-registro.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c012-el-bosque-no-olvida.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/cronicas/c020-como-dormir-sin-perder-la-forma.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c011-espacios-futuros.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c010-archivos-sonoros.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c009-comisariando-la-biodiversidad.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c008-construyendo-el-archivo-vivo.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c007-la-gramatica-de-las-herramientas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c006-el-archivo-del-olor.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c005-el-lenguaje-de-las-hojas.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c004-arrecifes-de-coral-que-recuerdan.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c003-trabajo-de-campo-bajo-ocupacion.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c002-el-bosque-como-biblioteca.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/cronicas/c001-donde-el-conocimiento-tiene-muchos-nombres.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n027-desde-quisquiza-07-orquideas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n026-desde-quisquiza-06-liquen.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n025-desde-quisquiza-05-musgo.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n024-desde-quisquiza-04-agua.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n023-desde-quisquiza-03-suelo.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n022-desde-quisquiza-02-altitud.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n021-desde-quisquiza-01-coordenadas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n020-la-pagina-no-puede-contener-la-danza.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n019-el-usuario-analfabeto.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n018-literocentrismo-digital.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n017-programacion-para-los-alfabetizados.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n016-metadatos-para-la-palabra-escrita.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n015-comercio-y-control.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n014-cita-requerida.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n013-mundos-silenciados.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n012-estanterias-sagradas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n011-la-lectura-es-la-reina.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n010-hacia-las-bibliotecas-regenerativas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n009-justicia-ecologica-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n008-biomimesis-y-diseno-bibliotecario.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n007-upcycling-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n006-minimalismo-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n005-decrecimiento-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n004-sostenibilidad-simbolica-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n003-ilusion-del-carbono-en-bibliotecas.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n002-bibliotecas-verdes-y-costes-ocultos.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://edgardocivallero.com/notas/n001-rompiendo-con-lo-verde.html</loc>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/blog/b052-curadoria-como-gobernanza.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://edgardocivallero.com/blog/b050-cuando-la-memoria-vive.html</loc>
-  <lastmod>2026-06-17T15:20:57+00:00</lastmod>
+  <lastmod>2026-06-18T16:02:45+00:00</lastmod>
   <priority>0.41</priority>
 </url>
-
 
 </urlset>
